@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "02ws",
+			"path": "02ws"
+		},
+		{
+			"name": "Jws",
+			"path": "Jws"
+		}
+	],
+	"settings": {
+		"monkeyC.developerKeyPath": "d:\\web\\site\\02wsgarmin\\02wsgarmin_key.der"
+	}
+}

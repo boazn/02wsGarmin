@@ -1,0 +1,10 @@
+project.manifest = manifest.xml
+fr235.resourcePath = resources-fr235
+fr230.resourcePath = resources-fr235
+vivoactive3.resourcePath = resources-fr235
+fr920xt.resourcePath = resources-fr235
+fr935.resourcePath = resources-fr235
+fr735xt.resourcePath = resources-fr235
+fr630.resourcePath = resources-fr235
+vivoactive3d.resourcePath = resources-fr235
+vivoactive_hr.resourcePath = resources-fr235

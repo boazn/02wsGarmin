@@ -1,0 +1,17 @@
+<resources>
+    <strings>
+    <string id="AppName">ירושמיים</string>
+    <string id="Mountain">הר</string>
+    <string id="Valley">עמק</string>
+    <string id="language">עִברִית</string>
+    <string id="rain">סיכוי לגשם</string>
+    <string id="language_label">Language:</string>
+    <string id="language">שפה</string>
+    <string id="English">English</string>
+    <string id="Hebrew">עברית</string>
+    <string id="CorF">C or F</string>
+    <string id="C">C</string>
+    <string id="F">F</string>
+    <string id="AppVersionTitle">גרסה</string>
+    </strings>
+</resources>

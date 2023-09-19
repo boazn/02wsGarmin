@@ -1,0 +1,24 @@
+<resources>
+    
+     
+    <layout id="MainLayout">
+    <drawable id="MainBackground" />
+    <bitmap id="logoc" filename="../resources/images/logo6.png" x="center" y="center"/>
+    <label id="DateLabel" x="center" y="10%" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+    <label id="TempLabel" x="50%" y="20%" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+    <label id="WindHumLabel" x="50%" y="32%" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+    <label id="RainLabel" x="50%" y="42%" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+    <label id="sigweatherText" font="Gfx.FONT_SMALL" x="50%" y="48%"  justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" />
+   </layout>
+
+   <layout id="DetailsLayout">
+   <drawable id="MainBackground" />
+    <bitmap id="logoDetailsLayout" filename="../resources/images/logo5_glance.png" x="center" y="center"/>
+        <label id="sigweatherTextDetails" font="Gfx.FONT_SMALL" x="50%" y="10%"  justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" />
+   </layout>
+   <layout id="GlanceLayout">
+   <drawable id="MainBackground" />
+    <bitmap id="logoGlanceLayout" filename="../resources/images/logo5_glance.png" x="center" y="center"/>
+        <label id="sigweatherTextDetailsGlance" font="Gfx.FONT_SMALL" x="50%" y="10%"  justification="Gfx.TEXT_JUSTIFY_CENTER" />
+   </layout>
+</resources>

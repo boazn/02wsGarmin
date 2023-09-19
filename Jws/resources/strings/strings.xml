@@ -1,0 +1,15 @@
+<strings>
+    <string id="AppName">Jws</string>
+    <string id="Mountain">Mountain</string>
+    <string id="Valley">Valley</string>
+    <string id="language">English</string>
+    <string id="rain">rain</string>
+    <string id="language_label">Language:</string>
+    <string id="language">Language</string>
+    <string id="English">English</string>
+    <string id="Hebrew">Hebrew</string>
+    <string id="CorF">C or F</string>
+    <string id="C">C</string>
+    <string id="F">F</string>
+    <string id="AppVersionTitle">Version</string>
+</strings>

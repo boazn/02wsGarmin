@@ -1,0 +1,57 @@
+JwsView onShow:
+JwsView OnUpdate: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView OnUpdate: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView onReceive:Loading... 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+MonkeyC Version: 3.1.8
+Device Part Num: 006-B2888-00
+ResoponseCode:-104
+JwsView onReceive: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView onReceive:press button 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView onReceive:Loading... 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+MonkeyC Version: 3.1.8
+Device Part Num: 006-B2888-00
+ResoponseCode:-104
+JwsView onReceive: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+page=2
+DetailsView onLayout:
+DetailsView onShow:
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+DetailsView onUpdate:
+לחות נמוכה, קלאסי, שתו יותר 
+    
+JwsView onReceive:Loading... 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+MonkeyC Version: 3.1.8
+Device Part Num: 006-B2888-00
+ResoponseCode:-104
+JwsView onReceive: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView onReceive:press button 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+JwsView onReceive:Loading... 28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+MonkeyC Version: 3.1.8
+Device Part Num: 006-B2888-00
+ResoponseCode:-104
+JwsView onReceive: ג  9:31   28.6° - 29.2° לחות נמוכה, רוח קלה  לחות נמוכה, קלאסי, שתו יותר 
+page=1
+JwsView onShow:
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
+JwsView OnUpdate:   
