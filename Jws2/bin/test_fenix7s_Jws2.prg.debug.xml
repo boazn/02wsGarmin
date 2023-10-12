@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="1" lineNum="12" parent="globals/JwsDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="2" lineNum="16" parent="globals/JwsDelegate" pc="268435479" symbol="onMenu"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="2" lineNum="17" parent="globals/JwsDelegate" pc="268435481" symbol="onMenu"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="27" parent="globals/JwsDelegate" pc="268435493" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="29" parent="globals/JwsDelegate" pc="268435497" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="30" parent="globals/JwsDelegate" pc="268435500" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="31" parent="globals/JwsDelegate" pc="268435532" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="32" parent="globals/JwsDelegate" pc="268435562" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="33" parent="globals/JwsDelegate" pc="268435579" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="35" parent="globals/JwsDelegate" pc="268435612" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="36" parent="globals/JwsDelegate" pc="268435629" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="40" parent="globals/JwsDelegate" pc="268435662" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="42" parent="globals/JwsDelegate" pc="268435692" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="3" lineNum="43" parent="globals/JwsDelegate" pc="268435724" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="90" parent="globals/JwsDelegate" pc="268435746" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="91" parent="globals/JwsDelegate" pc="268435750" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="92" parent="globals/JwsDelegate" pc="268435769" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="93" parent="globals/JwsDelegate" pc="268435780" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="96" parent="globals/JwsDelegate" pc="268435829" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="99" parent="globals/JwsDelegate" pc="268435852" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="4" lineNum="100" parent="globals/JwsDelegate" pc="268435863" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="20" parent="globals/JwsDelegate" pc="268435927" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="21" parent="globals/JwsDelegate" pc="268435929" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="22" parent="globals/JwsDelegate" pc="268435941" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="23" parent="globals/JwsDelegate" pc="268435988" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="24" parent="globals/JwsDelegate" pc="268436008" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="5" lineNum="25" parent="globals/JwsDelegate" pc="268436024" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="6" lineNum="83" parent="globals/JwsDelegate" pc="268436027" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="6" lineNum="84" parent="globals/JwsDelegate" pc="268436029" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="6" lineNum="85" parent="globals/JwsDelegate" pc="268436051" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="6" lineNum="86" parent="globals/JwsDelegate" pc="268436061" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="6" lineNum="87" parent="globals/JwsDelegate" pc="268436084" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="105" parent="globals/JwsDelegate" pc="268436097" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="106" parent="globals/JwsDelegate" pc="268436099" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="107" parent="globals/JwsDelegate" pc="268436110" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="108" parent="globals/JwsDelegate" pc="268436131" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="111" parent="globals/JwsDelegate" pc="268436157" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="114" parent="globals/JwsDelegate" pc="268436188" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="117" parent="globals/JwsDelegate" pc="268436211" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="118" parent="globals/JwsDelegate" pc="268436223" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="119" parent="globals/JwsDelegate" pc="268436258" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="120" parent="globals/JwsDelegate" pc="268436279" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="7" lineNum="123" parent="globals/JwsDelegate" pc="268436320" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="50" parent="globals/JwsDelegate" pc="268436367" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="51" parent="globals/JwsDelegate" pc="268436371" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="52" parent="globals/JwsDelegate" pc="268436394" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="54" parent="globals/JwsDelegate" pc="268436394" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="56" parent="globals/JwsDelegate" pc="268436401" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="60" parent="globals/JwsDelegate" pc="268436422" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="68" parent="globals/JwsDelegate" pc="268436483" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="71" parent="globals/JwsDelegate" pc="268436501" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="75" parent="globals/JwsDelegate" pc="268436531" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="8" lineNum="76" parent="globals/JwsDelegate" pc="268436535" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="9" lineNum="46" parent="globals/JwsDelegate" pc="268436568" symbol="onSelect"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsDelegate.mc" id="9" lineNum="47" parent="globals/JwsDelegate" pc="268436570" symbol="onSelect"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="10" lineNum="5" parent="globals/JwsGlanceView" pc="268436582" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="11" lineNum="27" parent="globals/JwsGlanceView" pc="268436601" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="11" lineNum="28" parent="globals/JwsGlanceView" pc="268436603" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="12" lineNum="161" parent="globals/JwsGlanceView" pc="268436627" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="12" lineNum="162" parent="globals/JwsGlanceView" pc="268436631" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="12" lineNum="163" parent="globals/JwsGlanceView" pc="268436638" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="12" lineNum="165" parent="globals/JwsGlanceView" pc="268436672" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="142" parent="globals/JwsGlanceView" pc="268436675" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="143" parent="globals/JwsGlanceView" pc="268436679" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="144" parent="globals/JwsGlanceView" pc="268436686" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="145" parent="globals/JwsGlanceView" pc="268436696" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="147" parent="globals/JwsGlanceView" pc="268436720" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="149" parent="globals/JwsGlanceView" pc="268436739" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="150" parent="globals/JwsGlanceView" pc="268436762" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="153" parent="globals/JwsGlanceView" pc="268436775" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="155" parent="globals/JwsGlanceView" pc="268436798" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="13" lineNum="157" parent="globals/JwsGlanceView" pc="268436808" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="74" parent="globals/JwsGlanceView" pc="268436811" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="75" parent="globals/JwsGlanceView" pc="268436815" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="76" parent="globals/JwsGlanceView" pc="268436833" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="77" parent="globals/JwsGlanceView" pc="268436851" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="78" parent="globals/JwsGlanceView" pc="268436901" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="79" parent="globals/JwsGlanceView" pc="268436934" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="82" parent="globals/JwsGlanceView" pc="268437106" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="84" parent="globals/JwsGlanceView" pc="268437275" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="85" parent="globals/JwsGlanceView" pc="268437293" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="86" parent="globals/JwsGlanceView" pc="268437322" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="87" parent="globals/JwsGlanceView" pc="268437356" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="91" parent="globals/JwsGlanceView" pc="268437428" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="92" parent="globals/JwsGlanceView" pc="268437446" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="94" parent="globals/JwsGlanceView" pc="268437462" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="95" parent="globals/JwsGlanceView" pc="268437480" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="97" parent="globals/JwsGlanceView" pc="268437493" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="14" lineNum="98" parent="globals/JwsGlanceView" pc="268437570" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="169" parent="globals/JwsGlanceView" pc="268437587" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="170" parent="globals/JwsGlanceView" pc="268437591" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="171" parent="globals/JwsGlanceView" pc="268437598" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="172" parent="globals/JwsGlanceView" pc="268437608" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="173" parent="globals/JwsGlanceView" pc="268437641" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="174" parent="globals/JwsGlanceView" pc="268437657" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="176" parent="globals/JwsGlanceView" pc="268437664" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="178" parent="globals/JwsGlanceView" pc="268437689" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="179" parent="globals/JwsGlanceView" pc="268437721" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="182" parent="globals/JwsGlanceView" pc="268437734" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="184" parent="globals/JwsGlanceView" pc="268437757" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="15" lineNum="186" parent="globals/JwsGlanceView" pc="268437767" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="16" lineNum="32" parent="globals/JwsGlanceView" pc="268437770" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="16" lineNum="33" parent="globals/JwsGlanceView" pc="268437772" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="123" parent="globals/JwsGlanceView" pc="268437796" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="124" parent="globals/JwsGlanceView" pc="268437800" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="125" parent="globals/JwsGlanceView" pc="268437807" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="126" parent="globals/JwsGlanceView" pc="268437831" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="127" parent="globals/JwsGlanceView" pc="268437842" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="131" parent="globals/JwsGlanceView" pc="268437871" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="133" parent="globals/JwsGlanceView" pc="268437894" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="134" parent="globals/JwsGlanceView" pc="268437917" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="136" parent="globals/JwsGlanceView" pc="268437930" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="17" lineNum="138" parent="globals/JwsGlanceView" pc="268437953" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="18" lineNum="19" parent="globals/JwsGlanceView" pc="268437956" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="18" lineNum="20" parent="globals/JwsGlanceView" pc="268437958" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="18" lineNum="21" parent="globals/JwsGlanceView" pc="268437980" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="101" parent="globals/JwsGlanceView" pc="268437991" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="102" parent="globals/JwsGlanceView" pc="268437995" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="103" parent="globals/JwsGlanceView" pc="268438002" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="104" parent="globals/JwsGlanceView" pc="268438020" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="105" parent="globals/JwsGlanceView" pc="268438038" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="106" parent="globals/JwsGlanceView" pc="268438056" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="109" parent="globals/JwsGlanceView" pc="268438074" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="20" lineNum="112" parent="globals/JwsGlanceView" pc="268438087" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="21" lineNum="116" parent="globals/JwsGlanceView" pc="268438090" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="21" lineNum="117" parent="globals/JwsGlanceView" pc="268438094" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="21" lineNum="118" parent="globals/JwsGlanceView" pc="268438112" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="37" parent="globals/JwsGlanceView" pc="268438149" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="39" parent="globals/JwsGlanceView" pc="268438153" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="50" parent="globals/JwsGlanceView" pc="268438230" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="51" parent="globals/JwsGlanceView" pc="268438270" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="52" parent="globals/JwsGlanceView" pc="268438292" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="53" parent="globals/JwsGlanceView" pc="268438318" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="54" parent="globals/JwsGlanceView" pc="268438376" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="55" parent="globals/JwsGlanceView" pc="268438400" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="61" parent="globals/JwsGlanceView" pc="268438515" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceView.mc" id="22" lineNum="62" parent="globals/JwsGlanceView" pc="268438538" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="23" lineNum="5" parent="globals/Jws2App" pc="268438559" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="24" lineNum="14" parent="globals/Jws2App" pc="268438578" symbol="onStart"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="25" lineNum="22" parent="globals/Jws2App" pc="268438581" symbol="getInitialView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="25" lineNum="23" parent="globals/Jws2App" pc="268438585" symbol="getInitialView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="25" lineNum="24" parent="globals/Jws2App" pc="268438613" symbol="getInitialView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="25" lineNum="25" parent="globals/Jws2App" pc="268438639" symbol="getInitialView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="25" lineNum="26" parent="globals/Jws2App" pc="268438675" symbol="getInitialView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="26" lineNum="9" parent="globals/Jws2App" pc="268438754" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="26" lineNum="10" parent="globals/Jws2App" pc="268438756" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="27" lineNum="29" parent="globals/Jws2App" pc="268438775" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="27" lineNum="31" parent="globals/Jws2App" pc="268438779" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="27" lineNum="32" parent="globals/Jws2App" pc="268438807" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="27" lineNum="34" parent="globals/Jws2App" pc="268438837" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="28" lineNum="18" parent="globals/Jws2App" pc="268438854" symbol="onStop"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="29" lineNum="5" parent="globals/JwsView" pc="268438857" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="30" lineNum="31" parent="globals/JwsView" pc="268438876" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="30" lineNum="32" parent="globals/JwsView" pc="268438878" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="31" lineNum="180" parent="globals/JwsView" pc="268438902" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="31" lineNum="181" parent="globals/JwsView" pc="268438906" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="31" lineNum="182" parent="globals/JwsView" pc="268438913" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="31" lineNum="184" parent="globals/JwsView" pc="268438947" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="32" lineNum="26" parent="globals/JwsView" pc="268438950" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="32" lineNum="27" parent="globals/JwsView" pc="268438952" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="161" parent="globals/JwsView" pc="268438994" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="162" parent="globals/JwsView" pc="268438998" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="163" parent="globals/JwsView" pc="268439005" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="164" parent="globals/JwsView" pc="268439015" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="166" parent="globals/JwsView" pc="268439039" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="168" parent="globals/JwsView" pc="268439058" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="169" parent="globals/JwsView" pc="268439081" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="172" parent="globals/JwsView" pc="268439094" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="174" parent="globals/JwsView" pc="268439117" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="33" lineNum="176" parent="globals/JwsView" pc="268439127" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="92" parent="globals/JwsView" pc="268439130" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="94" parent="globals/JwsView" pc="268439134" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="95" parent="globals/JwsView" pc="268439152" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="96" parent="globals/JwsView" pc="268439170" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="97" parent="globals/JwsView" pc="268439220" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="98" parent="globals/JwsView" pc="268439253" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="101" parent="globals/JwsView" pc="268439425" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="103" parent="globals/JwsView" pc="268439594" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="104" parent="globals/JwsView" pc="268439612" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="105" parent="globals/JwsView" pc="268439641" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="106" parent="globals/JwsView" pc="268439675" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="110" parent="globals/JwsView" pc="268439747" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="111" parent="globals/JwsView" pc="268439765" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="113" parent="globals/JwsView" pc="268439781" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="114" parent="globals/JwsView" pc="268439799" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="116" parent="globals/JwsView" pc="268439812" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="34" lineNum="117" parent="globals/JwsView" pc="268439889" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="188" parent="globals/JwsView" pc="268439906" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="189" parent="globals/JwsView" pc="268439910" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="190" parent="globals/JwsView" pc="268439917" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="191" parent="globals/JwsView" pc="268439927" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="192" parent="globals/JwsView" pc="268439960" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="193" parent="globals/JwsView" pc="268439976" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="195" parent="globals/JwsView" pc="268439983" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="197" parent="globals/JwsView" pc="268440008" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="198" parent="globals/JwsView" pc="268440040" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="201" parent="globals/JwsView" pc="268440053" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="203" parent="globals/JwsView" pc="268440076" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="35" lineNum="205" parent="globals/JwsView" pc="268440086" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="36" lineNum="37" parent="globals/JwsView" pc="268440089" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="36" lineNum="38" parent="globals/JwsView" pc="268440091" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="143" parent="globals/JwsView" pc="268440115" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="144" parent="globals/JwsView" pc="268440119" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="145" parent="globals/JwsView" pc="268440126" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="146" parent="globals/JwsView" pc="268440150" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="147" parent="globals/JwsView" pc="268440161" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="150" parent="globals/JwsView" pc="268440190" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="152" parent="globals/JwsView" pc="268440219" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="153" parent="globals/JwsView" pc="268440242" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="155" parent="globals/JwsView" pc="268440255" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="37" lineNum="157" parent="globals/JwsView" pc="268440278" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="38" lineNum="18" parent="globals/JwsView" pc="268440281" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="38" lineNum="19" parent="globals/JwsView" pc="268440283" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="38" lineNum="20" parent="globals/JwsView" pc="268440305" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="121" parent="globals/JwsView" pc="268440316" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="122" parent="globals/JwsView" pc="268440320" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="123" parent="globals/JwsView" pc="268440327" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="124" parent="globals/JwsView" pc="268440345" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="125" parent="globals/JwsView" pc="268440363" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="126" parent="globals/JwsView" pc="268440381" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="129" parent="globals/JwsView" pc="268440399" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="40" lineNum="132" parent="globals/JwsView" pc="268440412" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="41" lineNum="136" parent="globals/JwsView" pc="268440415" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="41" lineNum="137" parent="globals/JwsView" pc="268440419" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="41" lineNum="138" parent="globals/JwsView" pc="268440437" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="41" lineNum="139" parent="globals/JwsView" pc="268440473" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="42" parent="globals/JwsView" pc="268440494" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="68" parent="globals/JwsView" pc="268440498" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="69" parent="globals/JwsView" pc="268440522" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="70" parent="globals/JwsView" pc="268440546" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="71" parent="globals/JwsView" pc="268440570" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="72" parent="globals/JwsView" pc="268440594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="73" parent="globals/JwsView" pc="268440618" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="74" parent="globals/JwsView" pc="268440638" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="75" parent="globals/JwsView" pc="268440658" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="76" parent="globals/JwsView" pc="268440678" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="77" parent="globals/JwsView" pc="268440698" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="78" parent="globals/JwsView" pc="268440718" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="79" parent="globals/JwsView" pc="268440735" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="81" parent="globals/JwsView" pc="268440752" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsView.mc" id="42" lineNum="82" parent="globals/JwsView" pc="268440829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="43" lineNum="4" parent="globals/Jws2View" pc="268440850" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="44" lineNum="18" parent="globals/Jws2View" pc="268440869" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="44" lineNum="19" parent="globals/Jws2View" pc="268440871" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="45" lineNum="11" parent="globals/Jws2View" pc="268440895" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="45" lineNum="12" parent="globals/Jws2View" pc="268440897" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="46" lineNum="6" parent="globals/Jws2View" pc="268440939" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="46" lineNum="7" parent="globals/Jws2View" pc="268440941" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="48" lineNum="23" parent="globals/Jws2View" pc="268440960" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="48" lineNum="25" parent="globals/Jws2View" pc="268440962" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2View.mc" id="48" lineNum="26" parent="globals/Jws2View" pc="268440985" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="49" lineNum="11" parent="globals/JwsGlanceDelegate" pc="268441006" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="50" lineNum="15" parent="globals/JwsGlanceDelegate" pc="268441025" symbol="onMenu"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="50" lineNum="16" parent="globals/JwsGlanceDelegate" pc="268441027" symbol="onMenu"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="26" parent="globals/JwsGlanceDelegate" pc="268441040" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="28" parent="globals/JwsGlanceDelegate" pc="268441044" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="29" parent="globals/JwsGlanceDelegate" pc="268441047" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="30" parent="globals/JwsGlanceDelegate" pc="268441083" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="31" parent="globals/JwsGlanceDelegate" pc="268441113" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="32" parent="globals/JwsGlanceDelegate" pc="268441130" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="34" parent="globals/JwsGlanceDelegate" pc="268441163" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="35" parent="globals/JwsGlanceDelegate" pc="268441180" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="39" parent="globals/JwsGlanceDelegate" pc="268441213" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="41" parent="globals/JwsGlanceDelegate" pc="268441243" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="51" lineNum="42" parent="globals/JwsGlanceDelegate" pc="268441275" symbol="switchView"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="83" parent="globals/JwsGlanceDelegate" pc="268441297" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="84" parent="globals/JwsGlanceDelegate" pc="268441301" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="85" parent="globals/JwsGlanceDelegate" pc="268441320" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="86" parent="globals/JwsGlanceDelegate" pc="268441331" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="89" parent="globals/JwsGlanceDelegate" pc="268441380" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="92" parent="globals/JwsGlanceDelegate" pc="268441403" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="52" lineNum="93" parent="globals/JwsGlanceDelegate" pc="268441414" symbol="dump_device_information"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="19" parent="globals/JwsGlanceDelegate" pc="268441478" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="20" parent="globals/JwsGlanceDelegate" pc="268441480" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="21" parent="globals/JwsGlanceDelegate" pc="268441492" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="22" parent="globals/JwsGlanceDelegate" pc="268441539" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="23" parent="globals/JwsGlanceDelegate" pc="268441559" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="53" lineNum="24" parent="globals/JwsGlanceDelegate" pc="268441575" symbol="doNextPage"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="54" lineNum="76" parent="globals/JwsGlanceDelegate" pc="268441578" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="54" lineNum="77" parent="globals/JwsGlanceDelegate" pc="268441580" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="54" lineNum="78" parent="globals/JwsGlanceDelegate" pc="268441602" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="54" lineNum="79" parent="globals/JwsGlanceDelegate" pc="268441612" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="54" lineNum="80" parent="globals/JwsGlanceDelegate" pc="268441635" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="98" parent="globals/JwsGlanceDelegate" pc="268441648" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="99" parent="globals/JwsGlanceDelegate" pc="268441650" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="100" parent="globals/JwsGlanceDelegate" pc="268441661" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="101" parent="globals/JwsGlanceDelegate" pc="268441682" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="104" parent="globals/JwsGlanceDelegate" pc="268441708" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="107" parent="globals/JwsGlanceDelegate" pc="268441739" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="110" parent="globals/JwsGlanceDelegate" pc="268441762" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="111" parent="globals/JwsGlanceDelegate" pc="268441774" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="112" parent="globals/JwsGlanceDelegate" pc="268441809" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="113" parent="globals/JwsGlanceDelegate" pc="268441830" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="55" lineNum="116" parent="globals/JwsGlanceDelegate" pc="268441871" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="49" parent="globals/JwsGlanceDelegate" pc="268441918" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="50" parent="globals/JwsGlanceDelegate" pc="268441922" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="53" parent="globals/JwsGlanceDelegate" pc="268441945" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="55" parent="globals/JwsGlanceDelegate" pc="268441952" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="59" parent="globals/JwsGlanceDelegate" pc="268441973" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="67" parent="globals/JwsGlanceDelegate" pc="268442034" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="56" lineNum="70" parent="globals/JwsGlanceDelegate" pc="268442052" symbol="makeRequest"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="57" lineNum="45" parent="globals/JwsGlanceDelegate" pc="268442077" symbol="onSelect"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\JwsGlanceDelegate.mc" id="57" lineNum="46" parent="globals/JwsGlanceDelegate" pc="268442079" symbol="onSelect"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="58" lineNum="5" parent="globals/DetailsView" pc="268442092" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="59" lineNum="127" parent="globals/DetailsView" pc="268442111" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="59" lineNum="128" parent="globals/DetailsView" pc="268442115" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="59" lineNum="129" parent="globals/DetailsView" pc="268442181" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="59" lineNum="130" parent="globals/DetailsView" pc="268442201" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="59" lineNum="134" parent="globals/DetailsView" pc="268442270" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="60" lineNum="76" parent="globals/DetailsView" pc="268442273" symbol="convertTextToMultiline"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="60" lineNum="77" parent="globals/DetailsView" pc="268442277" symbol="convertTextToMultiline"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="60" lineNum="78" parent="globals/DetailsView" pc="268442284" symbol="convertTextToMultiline"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="60" lineNum="79" parent="globals/DetailsView" pc="268442313" symbol="convertTextToMultiline"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="60" lineNum="80" parent="globals/DetailsView" pc="268442332" symbol="convertTextToMultiline"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="117" parent="globals/DetailsView" pc="268442348" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="118" parent="globals/DetailsView" pc="268442352" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="119" parent="globals/DetailsView" pc="268442359" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="120" parent="globals/DetailsView" pc="268442383" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="121" parent="globals/DetailsView" pc="268442406" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="123" parent="globals/DetailsView" pc="268442429" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="61" lineNum="124" parent="globals/DetailsView" pc="268442449" symbol="getSigWeatherDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="63" lineNum="167" parent="globals/DetailsView" pc="268442452" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="63" lineNum="168" parent="globals/DetailsView" pc="268442456" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="63" lineNum="169" parent="globals/DetailsView" pc="268442474" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="63" lineNum="170" parent="globals/DetailsView" pc="268442510" symbol="changeBitmap"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="64" lineNum="33" parent="globals/DetailsView" pc="268442527" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="64" lineNum="34" parent="globals/DetailsView" pc="268442529" symbol="onShow"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="65" lineNum="26" parent="globals/DetailsView" pc="268442553" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="65" lineNum="27" parent="globals/DetailsView" pc="268442555" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="65" lineNum="28" parent="globals/DetailsView" pc="268442578" symbol="onLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="176" parent="globals/DetailsView" pc="268442620" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="177" parent="globals/DetailsView" pc="268442624" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="178" parent="globals/DetailsView" pc="268442631" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="179" parent="globals/DetailsView" pc="268442641" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="181" parent="globals/DetailsView" pc="268442665" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="183" parent="globals/DetailsView" pc="268442684" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="184" parent="globals/DetailsView" pc="268442707" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="187" parent="globals/DetailsView" pc="268442720" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="189" parent="globals/DetailsView" pc="268442743" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="66" lineNum="191" parent="globals/DetailsView" pc="268442753" symbol="getArrayDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="67" lineNum="136" parent="globals/DetailsView" pc="268442756" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="67" lineNum="137" parent="globals/DetailsView" pc="268442758" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="67" lineNum="149" parent="globals/DetailsView" pc="268442784" symbol="onReceive"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="195" parent="globals/DetailsView" pc="268442801" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="196" parent="globals/DetailsView" pc="268442805" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="197" parent="globals/DetailsView" pc="268442812" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="198" parent="globals/DetailsView" pc="268442822" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="199" parent="globals/DetailsView" pc="268442855" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="200" parent="globals/DetailsView" pc="268442871" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="202" parent="globals/DetailsView" pc="268442878" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="204" parent="globals/DetailsView" pc="268442903" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="205" parent="globals/DetailsView" pc="268442935" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="208" parent="globals/DetailsView" pc="268442948" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="210" parent="globals/DetailsView" pc="268442971" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="68" lineNum="212" parent="globals/DetailsView" pc="268442981" symbol="getDictionaryDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="69" lineNum="39" parent="globals/DetailsView" pc="268442984" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="69" lineNum="40" parent="globals/DetailsView" pc="268442986" symbol="onLoad"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="70" lineNum="18" parent="globals/DetailsView" pc="268443010" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="70" lineNum="19" parent="globals/DetailsView" pc="268443012" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="70" lineNum="20" parent="globals/DetailsView" pc="268443034" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="153" parent="globals/DetailsView" pc="268443045" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="154" parent="globals/DetailsView" pc="268443049" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="155" parent="globals/DetailsView" pc="268443056" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="156" parent="globals/DetailsView" pc="268443074" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="157" parent="globals/DetailsView" pc="268443092" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="158" parent="globals/DetailsView" pc="268443110" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="161" parent="globals/DetailsView" pc="268443128" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="71" lineNum="164" parent="globals/DetailsView" pc="268443141" symbol="getDisplayString"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="44" parent="globals/DetailsView" pc="268443144" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="45" parent="globals/DetailsView" pc="268443148" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="46" parent="globals/DetailsView" pc="268443171" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="47" parent="globals/DetailsView" pc="268443195" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="48" parent="globals/DetailsView" pc="268443202" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="49" parent="globals/DetailsView" pc="268443223" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="52" parent="globals/DetailsView" pc="268443248" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="55" parent="globals/DetailsView" pc="268443278" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="56" parent="globals/DetailsView" pc="268443296" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="57" parent="globals/DetailsView" pc="268443319" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="59" parent="globals/DetailsView" pc="268443346" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="60" parent="globals/DetailsView" pc="268443363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="62" parent="globals/DetailsView" pc="268443378" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="63" parent="globals/DetailsView" pc="268443390" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="64" parent="globals/DetailsView" pc="268443412" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="72" lineNum="66" parent="globals/DetailsView" pc="268443471" symbol="onUpdate"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="83" parent="globals/DetailsView" pc="268443492" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="84" parent="globals/DetailsView" pc="268443496" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="85" parent="globals/DetailsView" pc="268443513" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="87" parent="globals/DetailsView" pc="268443519" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="88" parent="globals/DetailsView" pc="268443529" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="89" parent="globals/DetailsView" pc="268443540" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="90" parent="globals/DetailsView" pc="268443578" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="93" parent="globals/DetailsView" pc="268443597" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="94" parent="globals/DetailsView" pc="268443608" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="95" parent="globals/DetailsView" pc="268443628" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="96" parent="globals/DetailsView" pc="268443660" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="97" parent="globals/DetailsView" pc="268443677" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="99" parent="globals/DetailsView" pc="268443692" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="100" parent="globals/DetailsView" pc="268443702" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="101" parent="globals/DetailsView" pc="268443799" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="103" parent="globals/DetailsView" pc="268443812" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="104" parent="globals/DetailsView" pc="268443826" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="105" parent="globals/DetailsView" pc="268443852" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="106" parent="globals/DetailsView" pc="268443884" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="107" parent="globals/DetailsView" pc="268443901" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="109" parent="globals/DetailsView" pc="268443916" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="110" parent="globals/DetailsView" pc="268443942" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="111" parent="globals/DetailsView" pc="268443968" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\DeatailsView.mc" id="73" lineNum="112" parent="globals/DetailsView" pc="268443985" symbol="convertTextToMultilineHelper"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="74" lineNum="39" parent="globals" pc="268443998" symbol="getApp"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\source\\Jws2App.mc" id="74" lineNum="40" parent="globals" pc="268444008" symbol="getApp"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="75" lineNum="7" parent="globals/Rez" pc="268444024" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="76" lineNum="16" parent="globals/Rez/Drawables/MainBackground" pc="268444048" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="77" lineNum="18" parent="globals/Rez/Drawables/MainBackground" pc="268444067" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="77" lineNum="19" parent="globals/Rez/Drawables/MainBackground" pc="268444069" symbol="initialize"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="22" parent="globals/Rez/Drawables/MainBackground" pc="268444094" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="23" parent="globals/Rez/Drawables/MainBackground" pc="268444096" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="24" parent="globals/Rez/Drawables/MainBackground" pc="268444107" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="25" parent="globals/Rez/Drawables/MainBackground" pc="268444119" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="29" parent="globals/Rez/Drawables/MainBackground" pc="268444126" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="30" parent="globals/Rez/Drawables/MainBackground" pc="268444148" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="31" parent="globals/Rez/Drawables/MainBackground" pc="268444180" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="33" parent="globals/Rez/Drawables/MainBackground" pc="268444202" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="78" lineNum="34" parent="globals/Rez/Drawables/MainBackground" pc="268444224" symbol="draw"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="69" parent="globals/Rez/Layouts" pc="268444257" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="70" parent="globals/Rez/Layouts" pc="268444269" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="71" parent="globals/Rez/Layouts" pc="268444309" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="72" parent="globals/Rez/Layouts" pc="268444322" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="75" parent="globals/Rez/Layouts" pc="268444338" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="76" parent="globals/Rez/Layouts" pc="268444443" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="78" parent="globals/Rez/Layouts" pc="268444495" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="79" lineNum="80" parent="globals/Rez/Layouts" pc="268444620" symbol="DetailsLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="83" parent="globals/Rez/Layouts" pc="268444657" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="84" parent="globals/Rez/Layouts" pc="268444669" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="85" parent="globals/Rez/Layouts" pc="268444709" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="86" parent="globals/Rez/Layouts" pc="268444722" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="89" parent="globals/Rez/Layouts" pc="268444738" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="90" parent="globals/Rez/Layouts" pc="268444843" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="92" parent="globals/Rez/Layouts" pc="268444895" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="80" lineNum="94" parent="globals/Rez/Layouts" pc="268444994" symbol="GlanceLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="47" parent="globals/Rez/Layouts" pc="268445031" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="48" parent="globals/Rez/Layouts" pc="268445043" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="49" parent="globals/Rez/Layouts" pc="268445083" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="50" parent="globals/Rez/Layouts" pc="268445096" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="53" parent="globals/Rez/Layouts" pc="268445112" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="54" parent="globals/Rez/Layouts" pc="268445217" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="56" parent="globals/Rez/Layouts" pc="268445269" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="58" parent="globals/Rez/Layouts" pc="268445381" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="60" parent="globals/Rez/Layouts" pc="268445493" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="62" parent="globals/Rez/Layouts" pc="268445605" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="64" parent="globals/Rez/Layouts" pc="268445717" symbol="MainLayout"/>
+<entry filename="C:\\Users\\BoazNechemia\\02ws\\02wsgarmin\\Jws2\\bin\\gen\\006-B3905-00\\source\\Rez.mcgen" id="81" lineNum="66" parent="globals/Rez/Layouts" pc="268445882" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8389346" symbol="text"/>
+<entry id="53" method="true" symbol="GlanceLayout"/>
+<entry id="16" method="true" symbol="doNextPage"/>
+<entry field="true" id="65" symbol="language"/>
+<entry field="true" id="63" symbol="Mountain"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="62" symbol="Hebrew"/>
+<entry id="54" method="true" symbol="MainLayout"/>
+<entry id="9" object="true" symbol="DetailsView"/>
+<entry id="25" method="true" symbol="getDisplayString"/>
+<entry field="true" id="59" symbol="CorF"/>
+<entry field="true" id="8392160" symbol="page"/>
+<entry id="41" method="true" symbol="convertTextToMultiline"/>
+<entry id="15" object="true" symbol="JwsView"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry id="27" method="true" symbol="getSigWeatherDisplayString"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="34" symbol="mTempTitle"/>
+<entry field="true" id="40" symbol="mView"/>
+<entry field="true" id="55" symbol="Alef27"/>
+<entry field="true" id="39" symbol="gView"/>
+<entry field="true" id="56" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389594" symbol="headers"/>
+<entry field="true" id="35" symbol="mWindHumTitle"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="66" symbol="language_label"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="47" symbol="id_monkey"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="52" method="true" symbol="DetailsLayout"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="23" method="true" symbol="getArrayDisplayString"/>
+<entry id="44" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="67" symbol="rain"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="8391300" method="true" symbol="isVisible"/>
+<entry id="14" object="true" symbol="JwsGlanceView"/>
+<entry id="24" method="true" symbol="getDictionaryDisplayString"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="37" symbol="mwriter"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="48" symbol="logoDetailsLayout"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="21" method="true" symbol="switchView"/>
+<entry id="18" method="true" symbol="makeRequest"/>
+<entry id="22" method="true" symbol="changeBitmap"/>
+<entry id="42" method="true" symbol="convertTextToMultilineHelper"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="51" symbol="logoc_eng"/>
+<entry id="26" method="true" symbol="getSigWeatherDictionaryDisplayString"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="64" symbol="Valley"/>
+<entry id="8389844" symbol="responseType"/>
+<entry field="true" id="50" symbol="logoc"/>
+<entry id="46" object="true" symbol="MainBackground"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry field="true" id="31" symbol="mModel"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="38" method="true" symbol="onLoad"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="20" method="true" symbol="onReceive"/>
+<entry field="true" id="19" symbol="notify"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="29" symbol="mDate"/>
+<entry field="true" id="45" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="28" symbol="jTextArea"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="36" symbol="mlang"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8389675" symbol="partNumber"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="30" symbol="mLogo"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="17" method="true" symbol="dump_device_information"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="32" symbol="mRain"/>
+<entry field="true" id="8389115" symbol="mMessage"/>
+<entry field="true" id="57" symbol="AppVersionTitle"/>
+<entry id="43" module="true" symbol="Layouts"/>
+<entry id="12" object="true" symbol="JwsDelegate"/>
+<entry id="13" object="true" symbol="JwsGlanceDelegate"/>
+<entry field="true" id="8389677" symbol="monkeyVersion"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="11" object="true" symbol="Jws2View"/>
+<entry id="10" object="true" symbol="Jws2App"/>
+<entry field="true" id="49" symbol="logoGlanceLayout"/>
+<entry field="true" id="8389743" symbol="backgroundColor"/>
+<entry id="8391457" method="true" symbol="getGlanceView"/>
+<entry field="true" id="60" symbol="English"/>
+<entry field="true" id="33" symbol="mSigWeather"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8390078" symbol="x"/>
+<entry field="true" id="61" symbol="F"/>
+<entry field="true" id="58" symbol="C"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435745" name="pageNum" stackId="1" startPc="268435493"/>
+<entry endPc="268435744" name="newView" stackId="2" startPc="268435497"/>
+<entry endPc="268435744" name="inputDelegate" stackId="3" startPc="268435497"/>
+<entry endPc="268435744" name="lang" stackId="4" startPc="268435497"/>
+<entry endPc="268435925" name="deviceSettings" stackId="1" startPc="268435750"/>
+<entry arg="true" endPc="268436096" name="handler" stackId="1" startPc="268436027"/>
+<entry arg="true" endPc="268436366" name="responseCode" stackId="1" startPc="268436097"/>
+<entry arg="true" endPc="268436366" name="data" stackId="2" startPc="268436097"/>
+<entry endPc="268436524" name="url" stackId="1" startPc="268436394"/>
+<entry endPc="268436524" name="params" stackId="2" startPc="268436394"/>
+<entry endPc="268436524" name="options" stackId="3" startPc="268436394"/>
+<entry endPc="268436524" name="responseCallback" stackId="4" startPc="268436394"/>
+<entry endPc="268436561" name="exception" stackId="5" startPc="268436531"/>
+<entry arg="true" endPc="268436674" name="dictionary" stackId="1" startPc="268436627"/>
+<entry arg="true" endPc="268436674" name="lang" stackId="2" startPc="268436627"/>
+<entry endPc="268436674" name="displayString" stackId="3" startPc="268436631"/>
+<entry arg="true" endPc="268436810" name="array" stackId="1" startPc="268436675"/>
+<entry endPc="268436810" name="displayString" stackId="2" startPc="268436679"/>
+<entry endPc="268436797" name="index" stackId="3" startPc="268436720"/>
+<entry arg="true" endPc="268437586" name="args" stackId="1" startPc="268436811"/>
+<entry endPc="268437424" name="mCurrent" stackId="2" startPc="268436833"/>
+<entry endPc="268437424" name="sigRunWalk" stackId="3" startPc="268436833"/>
+<entry arg="true" endPc="268437769" name="dictionary" stackId="1" startPc="268437587"/>
+<entry endPc="268437769" name="displayString" stackId="2" startPc="268437591"/>
+<entry endPc="268437756" name="index" stackId="3" startPc="268437641"/>
+<entry endPc="268437743" name="key" stackId="4" startPc="268437641"/>
+<entry endPc="268437743" name="value" stackId="5" startPc="268437641"/>
+<entry arg="true" endPc="268437955" name="array" stackId="1" startPc="268437796"/>
+<entry arg="true" endPc="268437955" name="lang" stackId="2" startPc="268437796"/>
+<entry endPc="268437955" name="displayString" stackId="3" startPc="268437800"/>
+<entry endPc="268437952" name="index" stackId="4" startPc="268437831"/>
+<entry arg="true" endPc="268437990" name="lang" stackId="1" startPc="268437956"/>
+<entry arg="true" endPc="268438089" name="item" stackId="1" startPc="268437991"/>
+<entry endPc="268438089" name="displayString" stackId="2" startPc="268437995"/>
+<entry endPc="268438147" name="bitmap" stackId="1" startPc="268438094"/>
+<entry arg="true" endPc="268438558" name="dc" stackId="1" startPc="268438149"/>
+<entry endPc="268438557" name="_message" stackId="2" startPc="268438153"/>
+<entry endPc="268438753" name="lang" stackId="1" startPc="268438585"/>
+<entry endPc="268438853" name="lang" stackId="1" startPc="268438779"/>
+<entry endPc="268438853" name="view" stackId="2" startPc="268438779"/>
+<entry arg="true" endPc="268438949" name="dictionary" stackId="1" startPc="268438902"/>
+<entry arg="true" endPc="268438949" name="lang" stackId="2" startPc="268438902"/>
+<entry endPc="268438949" name="displayString" stackId="3" startPc="268438906"/>
+<entry arg="true" endPc="268438993" name="dc" stackId="1" startPc="268438950"/>
+<entry arg="true" endPc="268439129" name="array" stackId="1" startPc="268438994"/>
+<entry endPc="268439129" name="displayString" stackId="2" startPc="268438998"/>
+<entry endPc="268439116" name="index" stackId="3" startPc="268439039"/>
+<entry arg="true" endPc="268439905" name="args" stackId="1" startPc="268439130"/>
+<entry endPc="268439743" name="mCurrent" stackId="2" startPc="268439152"/>
+<entry endPc="268439743" name="sigRunWalk" stackId="3" startPc="268439152"/>
+<entry arg="true" endPc="268440088" name="dictionary" stackId="1" startPc="268439906"/>
+<entry endPc="268440088" name="displayString" stackId="2" startPc="268439910"/>
+<entry endPc="268440075" name="index" stackId="3" startPc="268439960"/>
+<entry endPc="268440062" name="key" stackId="4" startPc="268439960"/>
+<entry endPc="268440062" name="value" stackId="5" startPc="268439960"/>
+<entry arg="true" endPc="268440280" name="array" stackId="1" startPc="268440115"/>
+<entry arg="true" endPc="268440280" name="lang" stackId="2" startPc="268440115"/>
+<entry endPc="268440280" name="displayString" stackId="3" startPc="268440119"/>
+<entry endPc="268440277" name="index" stackId="4" startPc="268440150"/>
+<entry arg="true" endPc="268440315" name="lang" stackId="1" startPc="268440281"/>
+<entry arg="true" endPc="268440414" name="item" stackId="1" startPc="268440316"/>
+<entry endPc="268440414" name="displayString" stackId="2" startPc="268440320"/>
+<entry arg="true" endPc="268440493" name="dc" stackId="1" startPc="268440415"/>
+<entry endPc="268440492" name="bitmap" stackId="2" startPc="268440419"/>
+<entry arg="true" endPc="268440849" name="dc" stackId="1" startPc="268440494"/>
+<entry endPc="268440848" name="DateLabel" stackId="2" startPc="268440498"/>
+<entry endPc="268440848" name="TempLabel" stackId="3" startPc="268440498"/>
+<entry endPc="268440848" name="WindHumLabel" stackId="4" startPc="268440498"/>
+<entry endPc="268440848" name="sigweatherText" stackId="5" startPc="268440498"/>
+<entry endPc="268440848" name="RainText" stackId="6" startPc="268440498"/>
+<entry arg="true" endPc="268440938" name="dc" stackId="1" startPc="268440895"/>
+<entry arg="true" endPc="268441005" name="dc" stackId="1" startPc="268440960"/>
+<entry arg="true" endPc="268441296" name="pageNum" stackId="1" startPc="268441040"/>
+<entry endPc="268441295" name="newView" stackId="2" startPc="268441044"/>
+<entry endPc="268441295" name="inputDelegate" stackId="3" startPc="268441044"/>
+<entry endPc="268441295" name="lang" stackId="4" startPc="268441044"/>
+<entry endPc="268441476" name="deviceSettings" stackId="1" startPc="268441301"/>
+<entry arg="true" endPc="268441647" name="handler" stackId="1" startPc="268441578"/>
+<entry arg="true" endPc="268441917" name="responseCode" stackId="1" startPc="268441648"/>
+<entry arg="true" endPc="268441917" name="data" stackId="2" startPc="268441648"/>
+<entry endPc="268442075" name="url" stackId="1" startPc="268441922"/>
+<entry endPc="268442075" name="params" stackId="2" startPc="268441922"/>
+<entry endPc="268442075" name="options" stackId="3" startPc="268441922"/>
+<entry endPc="268442075" name="responseCallback" stackId="4" startPc="268441922"/>
+<entry arg="true" endPc="268442272" name="dictionary" stackId="1" startPc="268442111"/>
+<entry arg="true" endPc="268442272" name="lang" stackId="2" startPc="268442111"/>
+<entry endPc="268442272" name="displayString" stackId="3" startPc="268442115"/>
+<entry arg="true" endPc="268442347" name="dc" stackId="1" startPc="268442273"/>
+<entry arg="true" endPc="268442347" name="text" stackId="2" startPc="268442273"/>
+<entry endPc="268442347" name="extraRoom" stackId="3" startPc="268442277"/>
+<entry endPc="268442347" name="oneCharWidth" stackId="4" startPc="268442277"/>
+<entry endPc="268442347" name="charPerLine" stackId="5" startPc="268442277"/>
+<entry arg="true" endPc="268442451" name="array" stackId="1" startPc="268442348"/>
+<entry arg="true" endPc="268442451" name="lang" stackId="2" startPc="268442348"/>
+<entry endPc="268442451" name="displayString" stackId="3" startPc="268442352"/>
+<entry endPc="268442428" name="index" stackId="4" startPc="268442383"/>
+<entry endPc="268442525" name="bitmap" stackId="1" startPc="268442456"/>
+<entry arg="true" endPc="268442619" name="dc" stackId="1" startPc="268442553"/>
+<entry arg="true" endPc="268442755" name="array" stackId="1" startPc="268442620"/>
+<entry endPc="268442755" name="displayString" stackId="2" startPc="268442624"/>
+<entry endPc="268442742" name="index" stackId="3" startPc="268442665"/>
+<entry arg="true" endPc="268442800" name="args" stackId="1" startPc="268442756"/>
+<entry arg="true" endPc="268442983" name="dictionary" stackId="1" startPc="268442801"/>
+<entry endPc="268442983" name="displayString" stackId="2" startPc="268442805"/>
+<entry endPc="268442970" name="index" stackId="3" startPc="268442855"/>
+<entry endPc="268442957" name="key" stackId="4" startPc="268442855"/>
+<entry endPc="268442957" name="value" stackId="5" startPc="268442855"/>
+<entry arg="true" endPc="268443044" name="lang" stackId="1" startPc="268443010"/>
+<entry arg="true" endPc="268443143" name="item" stackId="1" startPc="268443045"/>
+<entry endPc="268443143" name="displayString" stackId="2" startPc="268443049"/>
+<entry arg="true" endPc="268443491" name="dc" stackId="1" startPc="268443144"/>
+<entry endPc="268443490" name="sigweatherText" stackId="2" startPc="268443148"/>
+<entry endPc="268443490" name="jwsjson" stackId="3" startPc="268443148"/>
+<entry endPc="268443490" name="sigRunWalk" stackId="4" startPc="268443148"/>
+<entry endPc="268443490" name="mSigWeather" stackId="5" startPc="268443148"/>
+<entry arg="true" endPc="268443997" name="text" stackId="1" startPc="268443492"/>
+<entry arg="true" endPc="268443997" name="charPerLine" stackId="2" startPc="268443492"/>
+<entry endPc="268443996" name="i" stackId="3" startPc="268443519"/>
+<entry endPc="268443688" name="line" stackId="4" startPc="268443608"/>
+<entry endPc="268443688" name="textLeft" stackId="5" startPc="268443608"/>
+<entry endPc="268443688" name="otherLines" stackId="6" startPc="268443608"/>
+<entry endPc="268443996" name="lastChar" stackId="7" startPc="268443692"/>
+<entry endPc="268443912" name="line" stackId="8" startPc="268443826"/>
+<entry endPc="268443912" name="textLeft" stackId="9" startPc="268443826"/>
+<entry endPc="268443912" name="otherLines" stackId="10" startPc="268443826"/>
+<entry endPc="268443996" name="line" stackId="11" startPc="268443916"/>
+<entry endPc="268443996" name="textLeft" stackId="12" startPc="268443916"/>
+<entry endPc="268443996" name="otherLines" stackId="13" startPc="268443916"/>
+<entry arg="true" endPc="268444256" name="dc" stackId="1" startPc="268444094"/>
+<entry arg="true" endPc="268444656" name="dc" stackId="1" startPc="268444257"/>
+<entry endPc="268444656" name="rez_cmp_local_custom_drawable_MainBackground" stackId="2" startPc="268444269"/>
+<entry endPc="268444656" name="rez_cmp_local_bitmap_logoDetailsLayout" stackId="3" startPc="268444269"/>
+<entry endPc="268444656" name="rez_cmp_local_text_sigweatherTextDetails" stackId="4" startPc="268444269"/>
+<entry arg="true" endPc="268445030" name="dc" stackId="1" startPc="268444657"/>
+<entry endPc="268445030" name="rez_cmp_local_custom_drawable_MainBackground" stackId="2" startPc="268444669"/>
+<entry endPc="268445030" name="rez_cmp_local_bitmap_logoGlanceLayout" stackId="3" startPc="268444669"/>
+<entry endPc="268445030" name="rez_cmp_local_text_sigweatherTextDetailsGlance" stackId="4" startPc="268444669"/>
+<entry arg="true" endPc="268445958" name="dc" stackId="1" startPc="268445031"/>
+<entry endPc="268445958" name="rez_cmp_local_custom_drawable_MainBackground" stackId="2" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_bitmap_logoc" stackId="3" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_text_DateLabel" stackId="4" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_text_TempLabel" stackId="5" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_text_WindHumLabel" stackId="6" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_text_RainLabel" stackId="7" startPc="268445043"/>
+<entry endPc="268445958" name="rez_cmp_local_textarea_sigweatherText" stackId="8" startPc="268445043"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="getDictionaryDisplayString"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mWindHumTitle"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mTempTitle"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="onReceive"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mLogo"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="onReceive"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hebrew"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="dump_device_information"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logoDetailsLayout"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="notify"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="getSigWeatherDictionaryDisplayString"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mRain"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logoc"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="getArrayDisplayString"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mlang"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="onUpdate"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="language_label"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="onMenu"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Alef27"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="onLoad"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mModel"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppVersionTitle"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="getSigWeatherDisplayString"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="gView"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="doNextPage"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mwriter"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="switchView"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="changeBitmap"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="F"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logoGlanceLayout"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logoc_eng"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="onShow"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="onStart"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="C"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="jTextArea"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="rain"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="onStop"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mMessage"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="onHide"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CorF"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="onSelect"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mSigWeather"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="language"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="getDisplayString"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="mView"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Mountain"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="English"/>
+<annotationEntry annotation="glance" class="Jws2App" module="globals" symbol="getGlanceView"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="JwsGlanceView" module="globals" symbol="mDate"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Valley"/>
+<annotationEntry annotation="glance" class="JwsDelegate" module="globals" symbol="makeRequest"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/JwsDelegate" offset="206" parentId="globals" symbolId="JwsDelegate" type="class"/>
+<dataEntry label="globals/JwsGlanceView" offset="317" parentId="globals" symbolId="JwsGlanceView" type="class"/>
+<dataEntry label="globals/Jws2App" offset="540" parentId="globals" symbolId="Jws2App" type="class"/>
+<dataEntry label="globals/JwsView" offset="1842" parentId="globals" symbolId="JwsView" type="class"/>
+<dataEntry label="globals/Jws2View" offset="2073" parentId="globals" symbolId="Jws2View" type="class"/>
+<dataEntry label="globals/JwsGlanceDelegate" offset="2152" parentId="globals" symbolId="JwsGlanceDelegate" type="class"/>
+<dataEntry label="globals/DetailsView" offset="2263" parentId="globals" symbolId="DetailsView" type="class"/>
+<dataEntry label="globals/Rez" offset="2510" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="2589" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="2676" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="2731" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="2762" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2801" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="2928" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Drawables/MainBackground" offset="2959" parentId="Drawables" symbolId="MainBackground" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="JwsDelegate" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435492" name="onMenu" parent="JwsDelegate" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435745" name="switchView" parent="JwsDelegate" startPc="268435493">
+<param id="pageNum"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435926" name="dump_device_information" parent="JwsDelegate" startPc="268435746">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436026" name="doNextPage" parent="JwsDelegate" startPc="268435927">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436096" name="initialize" parent="JwsDelegate" startPc="268436027">
+<param id="handler"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436366" name="onReceive" parent="JwsDelegate" startPc="268436097">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436567" name="makeRequest" parent="JwsDelegate" startPc="268436367">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436581" name="onSelect" parent="JwsDelegate" startPc="268436568">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436600" name="&lt;init&gt;" parent="JwsGlanceView" startPc="268436582">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436626" name="onShow" parent="JwsGlanceView" startPc="268436601">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436674" name="getSigWeatherDictionaryDisplayString" parent="JwsGlanceView" startPc="268436627">
+<param id="dictionary"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436810" name="getArrayDisplayString" parent="JwsGlanceView" startPc="268436675">
+<param id="array"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437586" name="onReceive" parent="JwsGlanceView" startPc="268436811">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437769" name="getDictionaryDisplayString" parent="JwsGlanceView" startPc="268437587">
+<param id="dictionary"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437795" name="onLoad" parent="JwsGlanceView" startPc="268437770">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437955" name="getSigWeatherDisplayString" parent="JwsGlanceView" startPc="268437796">
+<param id="array"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437990" name="initialize" parent="JwsGlanceView" startPc="268437956">
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="JwsGlanceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438089" name="getDisplayString" parent="JwsGlanceView" startPc="268437991">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438148" name="changeBitmap" parent="JwsGlanceView" startPc="268438090">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438558" name="onUpdate" parent="JwsGlanceView" startPc="268438149">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438577" name="&lt;init&gt;" parent="Jws2App" startPc="268438559">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438580" name="onStart" parent="Jws2App" startPc="268438578">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438753" name="getInitialView" parent="Jws2App" startPc="268438581">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438774" name="initialize" parent="Jws2App" startPc="268438754">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438853" name="getGlanceView" parent="Jws2App" startPc="268438775">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438856" name="onStop" parent="Jws2App" startPc="268438854">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438875" name="&lt;init&gt;" parent="JwsView" startPc="268438857">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438901" name="onShow" parent="JwsView" startPc="268438876">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438949" name="getSigWeatherDictionaryDisplayString" parent="JwsView" startPc="268438902">
+<param id="dictionary"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438993" name="onLayout" parent="JwsView" startPc="268438950">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439129" name="getArrayDisplayString" parent="JwsView" startPc="268438994">
+<param id="array"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439905" name="onReceive" parent="JwsView" startPc="268439130">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440088" name="getDictionaryDisplayString" parent="JwsView" startPc="268439906">
+<param id="dictionary"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440114" name="onLoad" parent="JwsView" startPc="268440089">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440280" name="getSigWeatherDisplayString" parent="JwsView" startPc="268440115">
+<param id="array"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440315" name="initialize" parent="JwsView" startPc="268440281">
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="JwsView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440414" name="getDisplayString" parent="JwsView" startPc="268440316">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440493" name="changeBitmap" parent="JwsView" startPc="268440415">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440849" name="onUpdate" parent="JwsView" startPc="268440494">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440868" name="&lt;init&gt;" parent="Jws2View" startPc="268440850">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440894" name="onShow" parent="Jws2View" startPc="268440869">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440938" name="onLayout" parent="Jws2View" startPc="268440895">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440959" name="initialize" parent="Jws2View" startPc="268440939">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="Jws2View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441005" name="onUpdate" parent="Jws2View" startPc="268440960">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441024" name="&lt;init&gt;" parent="JwsGlanceDelegate" startPc="268441006">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441039" name="onMenu" parent="JwsGlanceDelegate" startPc="268441025">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441296" name="switchView" parent="JwsGlanceDelegate" startPc="268441040">
+<param id="pageNum"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441477" name="dump_device_information" parent="JwsGlanceDelegate" startPc="268441297">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441577" name="doNextPage" parent="JwsGlanceDelegate" startPc="268441478">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441647" name="initialize" parent="JwsGlanceDelegate" startPc="268441578">
+<param id="handler"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441917" name="onReceive" parent="JwsGlanceDelegate" startPc="268441648">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442076" name="makeRequest" parent="JwsGlanceDelegate" startPc="268441918">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442091" name="onSelect" parent="JwsGlanceDelegate" startPc="268442077">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442110" name="&lt;init&gt;" parent="DetailsView" startPc="268442092">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442272" name="getSigWeatherDictionaryDisplayString" parent="DetailsView" startPc="268442111">
+<param id="dictionary"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442347" name="convertTextToMultiline" parent="DetailsView" startPc="268442273">
+<param id="dc"/>
+<param id="text"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442451" name="getSigWeatherDisplayString" parent="DetailsView" startPc="268442348">
+<param id="array"/>
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="DetailsView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442526" name="changeBitmap" parent="DetailsView" startPc="268442452">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442552" name="onShow" parent="DetailsView" startPc="268442527">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442619" name="onLayout" parent="DetailsView" startPc="268442553">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442755" name="getArrayDisplayString" parent="DetailsView" startPc="268442620">
+<param id="array"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442800" name="onReceive" parent="DetailsView" startPc="268442756">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442983" name="getDictionaryDisplayString" parent="DetailsView" startPc="268442801">
+<param id="dictionary"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443009" name="onLoad" parent="DetailsView" startPc="268442984">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443044" name="initialize" parent="DetailsView" startPc="268443010">
+<param id="lang"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443143" name="getDisplayString" parent="DetailsView" startPc="268443045">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443491" name="onUpdate" parent="DetailsView" startPc="268443144">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443997" name="convertTextToMultilineHelper" parent="DetailsView" startPc="268443492">
+<param id="text"/>
+<param id="charPerLine"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444023" name="getApp" startPc="268443998">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444047" name="&lt;init&gt;" parent="Rez" startPc="268444024">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444066" name="&lt;init&gt;" parent="MainBackground" startPc="268444048">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444093" name="initialize" parent="MainBackground" startPc="268444067">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444256" name="draw" parent="MainBackground" startPc="268444094">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444656" name="DetailsLayout" parent="Layouts" startPc="268444257">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445030" name="GlanceLayout" parent="Layouts" startPc="268444657">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445958" name="MainLayout" parent="Layouts" startPc="268445031">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

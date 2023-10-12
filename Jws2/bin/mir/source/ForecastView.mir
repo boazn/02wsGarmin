@@ -1,0 +1,467 @@
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 1; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 4; ]
+import Toybox.Lang;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 5; ]
+class ForecastView extends WatchUi.View{
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 6; @position = 15; ]
+    protected
+    var mMessage = "Press menu button";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 7; @position = 15; ]
+    protected
+    var mDate = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 8; @position = 15; ]
+    protected
+    var mSigWeather = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 9; @position = 15; ]
+    protected
+    var mTempTitle = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 10; @position = 15; ]
+    protected
+    var mWindHumTitle = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 11; @position = 15; ]
+    protected
+    var mRain = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 12; @position = 15; ]
+    protected
+    var mModel;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 13; @position = 8; ]
+    var mLogo;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 14; @position = 8; ]
+    var mlang;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 15; @position = 8; ]
+    var mwriter;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 16; @position = 15; ]
+    protected
+    var jTextArea;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 18; ]
+    function initialize(lang) as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_18_30_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 19 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv %tmp.1 :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 20 8 ]
+        %tmp.5 = lgetv %lang;
+        putv self :mlang %tmp.5;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_18_30_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 26; ]
+    function onLayout(dc) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_26_26_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 27 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "ForecastView onLayout:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 28 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :setLayout;
+        %tmp.8 = getv ? :Rez;
+        %tmp.9 = getv %tmp.8 :Layouts;
+        %tmp.10 = getv function %tmp.9 :DetailsLayout;
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        invoke %tmp.5 %tmp.6(%tmp.13);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_26_26_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 33; ]
+    function onShow() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_33_22_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 34 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "ForecastView onShow:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_33_22_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 39; ]
+    function onLoad() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_39_23_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 40 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "ForecastView onLoad:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_39_23_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 44; ]
+    function onUpdate(dc as Dc) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 45 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "ForecastView onUpdate:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 46 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop" ]
+        %sigweatherText.1 = local;
+        %tmp.6 = getv ? :View;
+        %tmp.7 = getv function %tmp.6 :findDrawableById;
+        %tmp.8 = "sigweatherTextDetails";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = as %tmp.9 Text;
+        lputv %sigweatherText.1 %tmp.10;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 47 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop" ]
+        %myStats.2 = local;
+        %tmp.12 = getv ? :System;
+        %tmp.13 = getv function %tmp.12 :getSystemStats;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        lputv %myStats.2 %tmp.14;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 48 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop" ]
+        %jwsjson.3 = local;
+        %tmp.15 = "";
+        lputv %jwsjson.3 %tmp.15;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 49 11 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_15_begin:
+        %tmp.17 = getv ? :Toybox;
+        %tmp.18 = getv %tmp.17 :Application;
+        %tmp.20 = const :Storage;
+        %tmp.21 = canhazplz %tmp.18 %tmp.20;
+        %tmp.22 = dup %tmp.21;
+        bf %tmp.22 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_50_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_50_true:
+        %tmp.23 = lgetv %myStats.2;
+        %tmp.24 = getv %tmp.23 :freeMemory;
+        %tmp.25 = 14000;
+        %tmp.26 = gt %tmp.24 %tmp.25;
+        %tmp.27 = and %tmp.21 %tmp.26;
+        push %tmp.27;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_50_end:
+        %tmp.28 = phi [%tmp.22 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_15_begin] [%tmp.27 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_50_true] [%tmp.28 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_50_end];
+        bf %tmp.28 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_79_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 50 16 ]
+        %tmp.29 = getm $.Toybox.Application.Storage;
+        %tmp.30 = getv function %tmp.29 :getValue;
+        %tmp.31 = "02wsjson";
+        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
+        %tmp.33 = as %tmp.32 Dictionary;
+        lputv %jwsjson.3 %tmp.33;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_79_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_false:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_52_16_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 53 16 ]
+        %tmp.35 = getv ? :Application;
+        %tmp.36 = getv %tmp.35 :Properties;
+        %tmp.37 = getv function %tmp.36 :getValue;
+        %tmp.38 = "02wsjson";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = as %tmp.39 Dictionary;
+        lputv %jwsjson.3 %tmp.40;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_52_16_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_49_11_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 56 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop" ]
+        %forecastDay.4 = local;
+        %tmp.42 = lgetv %jwsjson.3;
+        %tmp.43 = "forecastDay";
+        %tmp.44 = agetv %tmp.42 %tmp.43;
+        %tmp.45 = as %tmp.44 Dictionary;
+        lputv %forecastDay.4 %tmp.45;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 57 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop" ]
+        %mSigWeather.5 = local;
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :getForecastDayDisplayString;
+        %tmp.49 = lgetv %forecastDay.4;
+        %tmp.51 = getv ? :mlang;
+        %tmp.52 = invoke %tmp.46 %tmp.47(%tmp.49, %tmp.51);
+        lputv %mSigWeather.5 %tmp.52;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 58 8 ]
+        %tmp.53 = lgetv %sigweatherText.1;
+        %tmp.54 = getv function %tmp.53 :setText;
+        %tmp.56 = lgetv %mSigWeather.5;
+        invoke %tmp.53 %tmp.54(%tmp.56);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 60 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_8_if_stmt:
+        %tmp.58 = getv ? :mlang;
+        %tmp.59 = 0;
+        %tmp.60 = eq %tmp.58 %tmp.59;
+        bf %tmp.60 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_23_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 61 12 ]
+        %tmp.61 = self;
+        %tmp.62 = getv function %tmp.61 :changeBitmap;
+        %tmp.64 = lgetv %dc;
+        invoke %tmp.61 %tmp.62(%tmp.64);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_23_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_60_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 63 8 ]
+        %tmp.66 = getv ? :View;
+        %tmp.67 = getv function %tmp.66 :onUpdate;
+        %tmp.69 = lgetv %dc;
+        invoke %tmp.66 %tmp.67(%tmp.69);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_44_32_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 69; ]
+    function onHide() {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 72; ]
+    function getForecastDayDisplayString(forecastDay as Dictionary, lang as Number) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 73 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %morning.1 = local;
+        %tmp.1 = newa 2;
+        %tmp.3 = const :morning0;
+        %tmp.4 = dup %tmp.1;
+        %tmp.5 = aputv %tmp.4 0 %tmp.3;
+        %tmp.7 = const :morning1;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 1 %tmp.7;
+        lputv %morning.1 %tmp.9;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 77 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %morning_str.2 = local;
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :loadResource;
+        %tmp.13 = getv ? :Rez;
+        %tmp.14 = getv %tmp.13 :Strings;
+        %tmp.16 = lgetv %morning.1;
+        %tmp.18 = lgetv %lang;
+        %tmp.19 = agetv %tmp.16 %tmp.18;
+        %tmp.20 = agetv %tmp.14 %tmp.19;
+        %tmp.21 = invoke %tmp.10 %tmp.11(%tmp.20);
+        lputv %morning_str.2 %tmp.21;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 78 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %noon.3 = local;
+        %tmp.22 = newa 2;
+        %tmp.24 = const :noon0;
+        %tmp.25 = dup %tmp.22;
+        %tmp.26 = aputv %tmp.25 0 %tmp.24;
+        %tmp.28 = const :noon1;
+        %tmp.29 = dup %tmp.26;
+        %tmp.30 = aputv %tmp.29 1 %tmp.28;
+        lputv %noon.3 %tmp.30;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 82 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %noon_str.4 = local;
+        %tmp.31 = self;
+        %tmp.32 = getv function %tmp.31 :loadResource;
+        %tmp.34 = getv ? :Rez;
+        %tmp.35 = getv %tmp.34 :Strings;
+        %tmp.37 = lgetv %noon.3;
+        %tmp.39 = lgetv %lang;
+        %tmp.40 = agetv %tmp.37 %tmp.39;
+        %tmp.41 = agetv %tmp.35 %tmp.40;
+        %tmp.42 = invoke %tmp.31 %tmp.32(%tmp.41);
+        lputv %noon_str.4 %tmp.42;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 83 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %night.5 = local;
+        %tmp.43 = newa 2;
+        %tmp.45 = const :night0;
+        %tmp.46 = dup %tmp.43;
+        %tmp.47 = aputv %tmp.46 0 %tmp.45;
+        %tmp.49 = const :night1;
+        %tmp.50 = dup %tmp.47;
+        %tmp.51 = aputv %tmp.50 1 %tmp.49;
+        lputv %night.5 %tmp.51;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 87 11 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %night_str.6 = local;
+        %tmp.52 = self;
+        %tmp.53 = getv function %tmp.52 :loadResource;
+        %tmp.55 = getv ? :Rez;
+        %tmp.56 = getv %tmp.55 :Strings;
+        %tmp.58 = lgetv %night.5;
+        %tmp.60 = lgetv %lang;
+        %tmp.61 = agetv %tmp.58 %tmp.60;
+        %tmp.62 = agetv %tmp.56 %tmp.61;
+        %tmp.63 = invoke %tmp.52 %tmp.53(%tmp.62);
+        lputv %night_str.6 %tmp.63;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 88 12 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop" ]
+        %displayString.7 = local;
+        %tmp.65 = lgetv %forecastDay;
+        %tmp.66 = "day_name";
+        %tmp.68 = lgetv %lang;
+        %tmp.69 = add %tmp.66 %tmp.68;
+        %tmp.70 = agetv %tmp.65 %tmp.69;
+        %tmp.71 = " ";
+        %tmp.72 = add %tmp.70 %tmp.71;
+        %tmp.74 = lgetv %forecastDay;
+        %tmp.75 = "date";
+        %tmp.76 = agetv %tmp.74 %tmp.75;
+        %tmp.77 = add %tmp.72 %tmp.76;
+        %tmp.78 = "\n";
+        %tmp.79 = add %tmp.77 %tmp.78;
+        %tmp.81 = lgetv %forecastDay;
+        %tmp.82 = "lang";
+        %tmp.84 = lgetv %lang;
+        %tmp.85 = add %tmp.82 %tmp.84;
+        %tmp.86 = agetv %tmp.81 %tmp.85;
+        %tmp.87 = add %tmp.79 %tmp.86;
+        %tmp.88 = "\n";
+        %tmp.89 = add %tmp.87 %tmp.88;
+        %tmp.91 = lgetv %morning_str.2;
+        %tmp.92 = add %tmp.89 %tmp.91;
+        %tmp.93 = " ";
+        %tmp.94 = add %tmp.92 %tmp.93;
+        %tmp.96 = lgetv %forecastDay;
+        %tmp.97 = "TempLow";
+        %tmp.98 = agetv %tmp.96 %tmp.97;
+        %tmp.99 = add %tmp.94 %tmp.98;
+        %tmp.101 = getv ? :StringUtil;
+        %tmp.102 = getv function %tmp.101 :utf8ArrayToString;
+        %tmp.103 = newa 2;
+        %tmp.104 = 0xC2;
+        %tmp.105 = dup %tmp.103;
+        %tmp.106 = aputv %tmp.105 0 %tmp.104;
+        %tmp.107 = 0xB0;
+        %tmp.108 = dup %tmp.106;
+        %tmp.109 = aputv %tmp.108 1 %tmp.107;
+        %tmp.110 = invoke %tmp.101 %tmp.102(%tmp.109);
+        %tmp.111 = add %tmp.99 %tmp.110;
+        %tmp.112 = "\n";
+        %tmp.113 = add %tmp.111 %tmp.112;
+        %tmp.115 = lgetv %noon_str.4;
+        %tmp.116 = add %tmp.113 %tmp.115;
+        %tmp.117 = " ";
+        %tmp.118 = add %tmp.116 %tmp.117;
+        %tmp.120 = lgetv %forecastDay;
+        %tmp.121 = "TempHigh";
+        %tmp.122 = agetv %tmp.120 %tmp.121;
+        %tmp.123 = add %tmp.118 %tmp.122;
+        %tmp.125 = getv ? :StringUtil;
+        %tmp.126 = getv function %tmp.125 :utf8ArrayToString;
+        %tmp.127 = newa 2;
+        %tmp.128 = 0xC2;
+        %tmp.129 = dup %tmp.127;
+        %tmp.130 = aputv %tmp.129 0 %tmp.128;
+        %tmp.131 = 0xB0;
+        %tmp.132 = dup %tmp.130;
+        %tmp.133 = aputv %tmp.132 1 %tmp.131;
+        %tmp.134 = invoke %tmp.125 %tmp.126(%tmp.133);
+        %tmp.135 = add %tmp.123 %tmp.134;
+        %tmp.136 = "\n";
+        %tmp.137 = add %tmp.135 %tmp.136;
+        %tmp.139 = lgetv %night_str.6;
+        %tmp.140 = add %tmp.137 %tmp.139;
+        %tmp.141 = " ";
+        %tmp.142 = add %tmp.140 %tmp.141;
+        %tmp.144 = lgetv %forecastDay;
+        %tmp.145 = "TempNight";
+        %tmp.146 = agetv %tmp.144 %tmp.145;
+        %tmp.147 = add %tmp.142 %tmp.146;
+        %tmp.149 = getv ? :StringUtil;
+        %tmp.150 = getv function %tmp.149 :utf8ArrayToString;
+        %tmp.151 = newa 2;
+        %tmp.152 = 0xC2;
+        %tmp.153 = dup %tmp.151;
+        %tmp.154 = aputv %tmp.153 0 %tmp.152;
+        %tmp.155 = 0xB0;
+        %tmp.156 = dup %tmp.154;
+        %tmp.157 = aputv %tmp.156 1 %tmp.155;
+        %tmp.158 = invoke %tmp.149 %tmp.150(%tmp.157);
+        %tmp.159 = add %tmp.147 %tmp.158;
+        %tmp.160 = "\n";
+        %tmp.161 = add %tmp.159 %tmp.160;
+        lputv %displayString.7 %tmp.161;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 94 12 ]
+        %tmp.163 = getv ? :System;
+        %tmp.164 = getv function %tmp.163 :println;
+        %tmp.166 = lgetv %displayString.7;
+        invoke %tmp.163 %tmp.164(%tmp.166);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 95 12 ]
+        %tmp.168 = lgetv %displayString.7;
+        ret %tmp.168;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_72_84_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 98; ]
+    function onReceive(args) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_98_29_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 99 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "ForecastView onReceive:";
+        %tmp.6 = lgetv %args;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 101 8 ]
+        %tmp.8 = getm $.Toybox.WatchUi;
+        %tmp.9 = getv function %tmp.8 :requestUpdate;
+        invoke %tmp.8 %tmp.9();
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_98_29_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 105; ]
+    function changeBitmap(dc) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 106 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_stop" ]
+        %myStats.1 = local;
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :getSystemStats;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %myStats.1 %tmp.4;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 107 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_107_8_if_stmt:
+        %tmp.5 = lgetv %myStats.1;
+        %tmp.6 = getv %tmp.5 :freeMemory;
+        %tmp.7 = 20000;
+        %tmp.8 = lt %tmp.6 %tmp.7;
+        bf %tmp.8 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_107_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_107_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_108_8_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 108 10 ]
+        ret ?;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_108_8_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_107_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_107_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 109 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_stop" ]
+        %bitmap.2 = local;
+        %tmp.10 = getv ? :View;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "logoDetailsLayout";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 Bitmap;
+        lputv %bitmap.2 %tmp.14;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 110 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_stop" ]
+        %image.3 = local;
+        %tmp.16 = getv ? :Application;
+        %tmp.17 = getv function %tmp.16 :loadResource;
+        %tmp.19 = getv ? :Rez;
+        %tmp.20 = getv %tmp.19 :Drawables;
+        %tmp.21 = getv %tmp.20 :logoc_eng;
+        %tmp.22 = invoke %tmp.16 %tmp.17(%tmp.21);
+        %tmp.23 = as %tmp.22 BitmapResource;
+        lputv %image.3 %tmp.23;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 111 8 ]
+        %tmp.24 = lgetv %bitmap.2;
+        %tmp.25 = getv function %tmp.24 :setBitmap;
+        %tmp.27 = lgetv %image.3;
+        invoke %tmp.24 %tmp.25(%tmp.27);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc" 112 9 ]
+        %tmp.29 = getv ? :View;
+        %tmp.30 = getv function %tmp.29 :onUpdate;
+        %tmp.32 = lgetv %dc;
+        invoke %tmp.29 %tmp.30(%tmp.32);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_ForecastView_mc_105_30_stop:
+    }
+}
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\ForecastView.mc"; @line = 1; ]
+<init> {
+}

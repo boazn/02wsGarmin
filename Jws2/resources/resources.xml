@@ -1,0 +1,80 @@
+<resources>
+    <drawables>
+        <bitmap id="logoc_eng" filename="../resources/images/logo_sun_eng.png" x="center" y="center" scope="foreground"/>
+        <drawable-list id="MainBackground" background="Graphics.COLOR_LT_GRAY" scope="glance">
+            <shape type="rectangle" x="0" y="0" width="100%" height="20%" color="Graphics.COLOR_LT_GRAY"/>
+        </drawable-list>
+        <bitmap id="LauncherIcon" filename="../resources/images/logo5_glance.png" />
+    </drawables>
+    <properties>
+        <property id="appVersion" type="string">3.1.5</property>
+        <property id="lang" type="number">1</property>
+        <property id="CorF" type="string">C</property>
+        <property id="02wsjson" type="string"></property>
+    </properties>
+    <strings>
+    <string id="AppName">02ws</string>
+    <string id="Mountain0">Mountain</string>
+    <string id="Mountain1">הר</string>
+    <string id="Valley0">Valley</string>
+    <string id="Valley1">עמק</string>
+    <string id="rain">rain</string>
+    <string id="rainchance0" scope="glance">rain chance</string>
+    <string id="rainchance1" scope="glance">סיכוי לגשם</string>
+    <string id="morning0">morning</string>
+    <string id="morning1">בוקר</string>
+    <string id="noon0">noon</string>
+    <string id="noon1">צהריים</string>
+    <string id="night0">night</string>
+    <string id="night1">לילה</string>
+    <string id="language_label">Language:</string>
+    <string id="language">Language</string>
+    <string id="English">English</string>
+    <string id="Hebrew">Hebrew</string>
+    <string id="CorF">C or F</string>
+    <string id="C">C</string>
+    <string id="F">F</string>
+    <string id="AppVersionTitle">Version</string>
+    </strings>
+    <settings>
+    <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle">
+    <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+    <setting propertyKey="@Properties.lang" title="@Strings.language_label">
+    <settingConfig type="list">
+    <listEntry value="0">@Strings.English</listEntry>
+    <listEntry value="1">@Strings.Hebrew</listEntry>
+    </settingConfig>
+    </setting>
+    
+    </settings>
+    <fonts>
+        
+        <font id="Alef27" filename="../resources/fonts/Alef27B.fnt"/>
+        
+    </fonts>
+    
+    <layout id="MainLayout">
+    <drawable id="MainBackground" />
+    <bitmap id="logoc" filename="../resources/images/logo6.png" x="center" y="center"/>
+    <label id="DateLabel" x="center" y="10%" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+    <label id="TempLabel" x="50%" y="20%" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY"/>
+    <label id="WindHumLabel" x="50%" y="44%" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" />
+    <label id="RainLabel" x="50%" y="52%" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" />
+    <text-area id="sigweatherText" font="Gfx.FONT_TINY" width="fill" height="50%" y="60%"  justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" />
+   </layout>
+
+   <layout id="DetailsLayout">
+   <drawable id="MainBackground" />
+    <bitmap id="logoDetailsLayout" filename="../resources/images/logo5_glance.png" x="center" y="center"/>
+       <text-area id="sigweatherTextDetails" width="85%" height="fill" y="10%" x="10%"  justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" background="Gfx.COLOR_LT_GRAY" >
+       <fonts>
+        <font>Gfx.FONT_TINY</font>
+        <font>Gfx.FONT_XTINY</font>
+        </fonts>
+      </text-area>
+   </layout>
+   <layout id="GlanceLayout" scope="glance">
+        <label id="sigweatherTextDetailsGlance" font="Gfx.FONT_TINY" x="50%" y="0%"  justification="Gfx.TEXT_JUSTIFY_CENTER" />
+   </layout>
+</resources>

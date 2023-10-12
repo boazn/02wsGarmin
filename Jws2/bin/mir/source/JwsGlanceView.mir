@@ -1,0 +1,1284 @@
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 4; glance = true; ]
+class JwsGlanceView extends WatchUi.GlanceView{
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 6; @position = 17; ]
+    protected
+    var mMessage = "02WS\n";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 7; @position = 15; ]
+    protected
+    var mDate = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 8; @position = 15; ]
+    protected
+    var mSigWeather = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 9; @position = 15; ]
+    protected
+    var mTempTitle = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 10; @position = 15; ]
+    protected
+    var mTemp = null;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 11; @position = 15; ]
+    protected
+    var mWindHumTitle = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 12; @position = 15; ]
+    protected
+    var mRain = "";
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 13; @position = 15; ]
+    protected
+    var mModel;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 14; @position = 8; ]
+    var mLogo;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 15; @position = 8; ]
+    var mlang;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 16; @position = 8; ]
+    var mwriter;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 17; @position = 15; ]
+    protected
+    var jTextArea;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 20; ]
+    function initialize(lang) as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_20_30_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 21 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv %tmp.1 :GlanceView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 22 8 ]
+        %tmp.5 = lgetv %lang;
+        putv self :mlang %tmp.5;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 23 8 ]
+        %tmp.7 = getv ? :System;
+        %tmp.8 = getv function %tmp.7 :println;
+        %tmp.9 = "GlanceView initialize:";
+        %tmp.11 = getv ? :mlang;
+        %tmp.12 = add %tmp.9 %tmp.11;
+        invoke %tmp.7 %tmp.8(%tmp.12);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_20_30_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 27; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_27_40_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 28 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :GlanceLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_27_40_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 31; ]
+    function onShow() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_31_22_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 32 9 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "GlanceView onShow:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_31_22_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 36; ]
+    function onLoad() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_36_23_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 37 10 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "GlanceView onLoad:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_36_23_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 41; ]
+    function onUpdate(dc as Dc) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 42 9 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "GlanceView onUpdate:";
+        %tmp.6 = getv ? :mDate;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        %tmp.8 = " ";
+        %tmp.9 = add %tmp.7 %tmp.8;
+        %tmp.11 = getv ? :mTempTitle;
+        %tmp.12 = add %tmp.9 %tmp.11;
+        %tmp.13 = " ";
+        %tmp.14 = add %tmp.12 %tmp.13;
+        %tmp.16 = getv ? :mWindHumTitle;
+        %tmp.17 = add %tmp.14 %tmp.16;
+        %tmp.18 = " ";
+        %tmp.19 = add %tmp.17 %tmp.18;
+        %tmp.21 = getv ? :mSigWeather;
+        %tmp.22 = add %tmp.19 %tmp.21;
+        invoke %tmp.2 %tmp.3(%tmp.22);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 44 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_stop" ]
+        %_message.1 = local;
+        %tmp.24 = getv ? :mTempTitle;
+        %tmp.25 = "\n";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.28 = getv ? :mWindHumTitle;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        %tmp.30 = "\n";
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.33 = getv ? :mRain;
+        %tmp.34 = add %tmp.31 %tmp.33;
+        lputv %_message.1 %tmp.34;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 45 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_stop" ]
+        %glanceLabel.2 = local;
+        %tmp.36 = getv ? :View;
+        %tmp.37 = getv function %tmp.36 :findDrawableById;
+        %tmp.38 = "sigweatherTextDetailsGlance";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = as %tmp.39 Text;
+        lputv %glanceLabel.2 %tmp.40;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 46 8 ]
+        %tmp.41 = lgetv %glanceLabel.2;
+        %tmp.42 = getv function %tmp.41 :setText;
+        %tmp.44 = lgetv %_message.1;
+        invoke %tmp.41 %tmp.42(%tmp.44);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 47 8 ]
+        %tmp.45 = lgetv %glanceLabel.2;
+        %tmp.46 = getv function %tmp.45 :setBackgroundColor;
+        %tmp.47 = self;
+        %tmp.48 = getv function %tmp.47 :getBGColor;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        invoke %tmp.45 %tmp.46(%tmp.49);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 48 8 ]
+        %tmp.50 = lgetv %glanceLabel.2;
+        %tmp.51 = getv function %tmp.50 :setColor;
+        %tmp.52 = self;
+        %tmp.53 = getv function %tmp.52 :getColor;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        invoke %tmp.50 %tmp.51(%tmp.54);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 49 8 ]
+        %tmp.56 = getv ? :System;
+        %tmp.57 = getv function %tmp.56 :println;
+        %tmp.58 = "GlanceView drawText:";
+        %tmp.60 = lgetv %_message.1;
+        %tmp.61 = add %tmp.58 %tmp.60;
+        invoke %tmp.56 %tmp.57(%tmp.61);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 51 8 ]
+        %tmp.63 = getv ? :View;
+        %tmp.64 = getv function %tmp.63 :onUpdate;
+        %tmp.66 = lgetv %dc;
+        invoke %tmp.63 %tmp.64(%tmp.66);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_41_32_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 56; ]
+    function getColor() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_56_24_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 57 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_57_8_if_stmt:
+        %tmp.2 = getv ? :mTemp;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_57_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_57_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_58_11_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 58 12 ]
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_WHITE;
+        ret %tmp.6;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_58_11_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_57_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_57_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 59 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_8_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_12_begin:
+        %tmp.8 = getv ? :mTemp;
+        %tmp.9 = 0;
+        %tmp.10 = gte %tmp.8 %tmp.9;
+        %tmp.11 = dup %tmp.10;
+        bf %tmp.11 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_27_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_27_true:
+        %tmp.13 = getv ? :mTemp;
+        %tmp.14 = 5;
+        %tmp.15 = lt %tmp.13 %tmp.14;
+        %tmp.16 = and %tmp.10 %tmp.15;
+        push %tmp.16;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_27_end:
+        %tmp.17 = phi [%tmp.11 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_12_begin] [%tmp.16 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_27_true] [%tmp.17 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_27_end];
+        bf %tmp.17 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_60_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 60 13 ]
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_WHITE;
+        ret %tmp.19;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_60_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_59_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 61 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_13_begin:
+        %tmp.21 = getv ? :mTemp;
+        %tmp.22 = 5;
+        %tmp.23 = gte %tmp.21 %tmp.22;
+        %tmp.24 = dup %tmp.23;
+        bf %tmp.24 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_28_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_28_true:
+        %tmp.26 = getv ? :mTemp;
+        %tmp.27 = 10;
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        %tmp.29 = and %tmp.23 %tmp.28;
+        push %tmp.29;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_28_end:
+        %tmp.30 = phi [%tmp.24 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_13_begin] [%tmp.29 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_28_true] [%tmp.30 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_28_end];
+        bf %tmp.30 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_62_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 62 13 ]
+        %tmp.31 = getm $.Toybox.Graphics;
+        %tmp.32 = getv %tmp.31 :COLOR_WHITE;
+        ret %tmp.32;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_62_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_61_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 63 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_13_begin:
+        %tmp.34 = getv ? :mTemp;
+        %tmp.35 = 10;
+        %tmp.36 = gte %tmp.34 %tmp.35;
+        %tmp.37 = dup %tmp.36;
+        bf %tmp.37 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_29_true:
+        %tmp.39 = getv ? :mTemp;
+        %tmp.40 = 15;
+        %tmp.41 = lt %tmp.39 %tmp.40;
+        %tmp.42 = and %tmp.36 %tmp.41;
+        push %tmp.42;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_29_end:
+        %tmp.43 = phi [%tmp.37 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_13_begin] [%tmp.42 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_29_true] [%tmp.43 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_29_end];
+        bf %tmp.43 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_64_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 64 13 ]
+        %tmp.44 = getm $.Toybox.Graphics;
+        %tmp.45 = getv %tmp.44 :COLOR_WHITE;
+        ret %tmp.45;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_64_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_63_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 65 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_13_begin:
+        %tmp.47 = getv ? :mTemp;
+        %tmp.48 = 15;
+        %tmp.49 = gte %tmp.47 %tmp.48;
+        %tmp.50 = dup %tmp.49;
+        bf %tmp.50 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_29_true:
+        %tmp.52 = getv ? :mTemp;
+        %tmp.53 = 20;
+        %tmp.54 = lt %tmp.52 %tmp.53;
+        %tmp.55 = and %tmp.49 %tmp.54;
+        push %tmp.55;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_29_end:
+        %tmp.56 = phi [%tmp.50 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_13_begin] [%tmp.55 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_29_true] [%tmp.56 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_29_end];
+        bf %tmp.56 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_66_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 66 13 ]
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :COLOR_BLACK;
+        ret %tmp.58;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_66_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_65_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 67 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_13_begin:
+        %tmp.60 = getv ? :mTemp;
+        %tmp.61 = 20;
+        %tmp.62 = gte %tmp.60 %tmp.61;
+        %tmp.63 = dup %tmp.62;
+        bf %tmp.63 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_29_true:
+        %tmp.65 = getv ? :mTemp;
+        %tmp.66 = 25;
+        %tmp.67 = lt %tmp.65 %tmp.66;
+        %tmp.68 = and %tmp.62 %tmp.67;
+        push %tmp.68;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_29_end:
+        %tmp.69 = phi [%tmp.63 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_13_begin] [%tmp.68 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_29_true] [%tmp.69 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_29_end];
+        bf %tmp.69 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_68_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 68 13 ]
+        %tmp.70 = getm $.Toybox.Graphics;
+        %tmp.71 = getv %tmp.70 :COLOR_BLACK;
+        ret %tmp.71;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_68_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_67_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 69 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_13_begin:
+        %tmp.73 = getv ? :mTemp;
+        %tmp.74 = 25;
+        %tmp.75 = gte %tmp.73 %tmp.74;
+        %tmp.76 = dup %tmp.75;
+        bf %tmp.76 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_29_true:
+        %tmp.78 = getv ? :mTemp;
+        %tmp.79 = 30;
+        %tmp.80 = lt %tmp.78 %tmp.79;
+        %tmp.81 = and %tmp.75 %tmp.80;
+        push %tmp.81;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_29_end:
+        %tmp.82 = phi [%tmp.76 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_13_begin] [%tmp.81 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_29_true] [%tmp.82 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_29_end];
+        bf %tmp.82 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_70_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 70 13 ]
+        %tmp.83 = getm $.Toybox.Graphics;
+        %tmp.84 = getv %tmp.83 :COLOR_BLACK;
+        ret %tmp.84;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_70_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_69_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 71 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_13_begin:
+        %tmp.86 = getv ? :mTemp;
+        %tmp.87 = 30;
+        %tmp.88 = gte %tmp.86 %tmp.87;
+        %tmp.89 = dup %tmp.88;
+        bf %tmp.89 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_29_true:
+        %tmp.91 = getv ? :mTemp;
+        %tmp.92 = 35;
+        %tmp.93 = lt %tmp.91 %tmp.92;
+        %tmp.94 = and %tmp.88 %tmp.93;
+        push %tmp.94;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_29_end:
+        %tmp.95 = phi [%tmp.89 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_13_begin] [%tmp.94 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_29_true] [%tmp.95 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_29_end];
+        bf %tmp.95 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_72_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 72 13 ]
+        %tmp.96 = getm $.Toybox.Graphics;
+        %tmp.97 = getv %tmp.96 :COLOR_BLACK;
+        ret %tmp.97;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_72_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_71_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 73 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_13_begin:
+        %tmp.99 = getv ? :mTemp;
+        %tmp.100 = 35;
+        %tmp.101 = gte %tmp.99 %tmp.100;
+        %tmp.102 = dup %tmp.101;
+        bf %tmp.102 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_29_true:
+        %tmp.104 = getv ? :mTemp;
+        %tmp.105 = 50;
+        %tmp.106 = lt %tmp.104 %tmp.105;
+        %tmp.107 = and %tmp.101 %tmp.106;
+        push %tmp.107;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_29_end:
+        %tmp.108 = phi [%tmp.102 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_13_begin] [%tmp.107 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_29_true] [%tmp.108 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_29_end];
+        bf %tmp.108 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_74_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 74 13 ]
+        %tmp.109 = getm $.Toybox.Graphics;
+        %tmp.110 = getv %tmp.109 :COLOR_WHITE;
+        ret %tmp.110;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_74_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_73_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 75 9 ]
+        %tmp.111 = getm $.Toybox.Graphics;
+        %tmp.112 = getv %tmp.111 :COLOR_WHITE;
+        ret %tmp.112;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_56_24_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 78; ]
+    function getBGColor() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_78_26_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 79 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_79_8_if_stmt:
+        %tmp.2 = getv ? :mTemp;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_79_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_79_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_80_11_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 80 12 ]
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        ret %tmp.6;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_80_11_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_79_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_79_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 81 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_8_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_12_begin:
+        %tmp.8 = getv ? :mTemp;
+        %tmp.9 = 0;
+        %tmp.10 = gte %tmp.8 %tmp.9;
+        %tmp.11 = dup %tmp.10;
+        bf %tmp.11 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_27_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_27_true:
+        %tmp.13 = getv ? :mTemp;
+        %tmp.14 = 5;
+        %tmp.15 = lt %tmp.13 %tmp.14;
+        %tmp.16 = and %tmp.10 %tmp.15;
+        push %tmp.16;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_27_end:
+        %tmp.17 = phi [%tmp.11 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_12_begin] [%tmp.16 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_27_true] [%tmp.17 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_27_end];
+        bf %tmp.17 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_82_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 82 13 ]
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_PURPLE;
+        ret %tmp.19;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_82_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_81_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 83 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_13_begin:
+        %tmp.21 = getv ? :mTemp;
+        %tmp.22 = 5;
+        %tmp.23 = gte %tmp.21 %tmp.22;
+        %tmp.24 = dup %tmp.23;
+        bf %tmp.24 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_28_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_28_true:
+        %tmp.26 = getv ? :mTemp;
+        %tmp.27 = 10;
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        %tmp.29 = and %tmp.23 %tmp.28;
+        push %tmp.29;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_28_end:
+        %tmp.30 = phi [%tmp.24 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_13_begin] [%tmp.29 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_28_true] [%tmp.30 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_28_end];
+        bf %tmp.30 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_84_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 84 13 ]
+        %tmp.31 = getm $.Toybox.Graphics;
+        %tmp.32 = getv %tmp.31 :COLOR_DK_BLUE;
+        ret %tmp.32;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_84_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_83_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 85 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_13_begin:
+        %tmp.34 = getv ? :mTemp;
+        %tmp.35 = 10;
+        %tmp.36 = gte %tmp.34 %tmp.35;
+        %tmp.37 = dup %tmp.36;
+        bf %tmp.37 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_29_true:
+        %tmp.39 = getv ? :mTemp;
+        %tmp.40 = 15;
+        %tmp.41 = lt %tmp.39 %tmp.40;
+        %tmp.42 = and %tmp.36 %tmp.41;
+        push %tmp.42;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_29_end:
+        %tmp.43 = phi [%tmp.37 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_13_begin] [%tmp.42 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_29_true] [%tmp.43 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_29_end];
+        bf %tmp.43 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_86_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 86 13 ]
+        %tmp.44 = getm $.Toybox.Graphics;
+        %tmp.45 = getv %tmp.44 :COLOR_DK_GREEN;
+        ret %tmp.45;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_86_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_85_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 87 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_13_begin:
+        %tmp.47 = getv ? :mTemp;
+        %tmp.48 = 15;
+        %tmp.49 = gte %tmp.47 %tmp.48;
+        %tmp.50 = dup %tmp.49;
+        bf %tmp.50 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_29_true:
+        %tmp.52 = getv ? :mTemp;
+        %tmp.53 = 20;
+        %tmp.54 = lt %tmp.52 %tmp.53;
+        %tmp.55 = and %tmp.49 %tmp.54;
+        push %tmp.55;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_29_end:
+        %tmp.56 = phi [%tmp.50 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_13_begin] [%tmp.55 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_29_true] [%tmp.56 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_29_end];
+        bf %tmp.56 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_88_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 88 13 ]
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :COLOR_GREEN;
+        ret %tmp.58;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_88_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_87_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 89 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_13_begin:
+        %tmp.60 = getv ? :mTemp;
+        %tmp.61 = 20;
+        %tmp.62 = gte %tmp.60 %tmp.61;
+        %tmp.63 = dup %tmp.62;
+        bf %tmp.63 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_29_true:
+        %tmp.65 = getv ? :mTemp;
+        %tmp.66 = 25;
+        %tmp.67 = lt %tmp.65 %tmp.66;
+        %tmp.68 = and %tmp.62 %tmp.67;
+        push %tmp.68;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_29_end:
+        %tmp.69 = phi [%tmp.63 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_13_begin] [%tmp.68 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_29_true] [%tmp.69 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_29_end];
+        bf %tmp.69 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_90_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 90 13 ]
+        %tmp.70 = getm $.Toybox.Graphics;
+        %tmp.71 = getv %tmp.70 :COLOR_ORANGE;
+        ret %tmp.71;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_90_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_89_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 91 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_13_begin:
+        %tmp.73 = getv ? :mTemp;
+        %tmp.74 = 25;
+        %tmp.75 = gte %tmp.73 %tmp.74;
+        %tmp.76 = dup %tmp.75;
+        bf %tmp.76 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_29_true:
+        %tmp.78 = getv ? :mTemp;
+        %tmp.79 = 30;
+        %tmp.80 = lt %tmp.78 %tmp.79;
+        %tmp.81 = and %tmp.75 %tmp.80;
+        push %tmp.81;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_29_end:
+        %tmp.82 = phi [%tmp.76 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_13_begin] [%tmp.81 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_29_true] [%tmp.82 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_29_end];
+        bf %tmp.82 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_92_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 92 13 ]
+        %tmp.83 = getm $.Toybox.Graphics;
+        %tmp.84 = getv %tmp.83 :COLOR_PINK;
+        ret %tmp.84;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_92_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_91_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 93 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_13_begin:
+        %tmp.86 = getv ? :mTemp;
+        %tmp.87 = 30;
+        %tmp.88 = gte %tmp.86 %tmp.87;
+        %tmp.89 = dup %tmp.88;
+        bf %tmp.89 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_29_true:
+        %tmp.91 = getv ? :mTemp;
+        %tmp.92 = 35;
+        %tmp.93 = lt %tmp.91 %tmp.92;
+        %tmp.94 = and %tmp.88 %tmp.93;
+        push %tmp.94;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_29_end:
+        %tmp.95 = phi [%tmp.89 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_13_begin] [%tmp.94 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_29_true] [%tmp.95 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_29_end];
+        bf %tmp.95 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_94_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 94 13 ]
+        %tmp.96 = getm $.Toybox.Graphics;
+        %tmp.97 = getv %tmp.96 :COLOR_RED;
+        ret %tmp.97;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_94_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_93_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 95 9 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_9_if_stmt:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_13_begin:
+        %tmp.99 = getv ? :mTemp;
+        %tmp.100 = 35;
+        %tmp.101 = gte %tmp.99 %tmp.100;
+        %tmp.102 = dup %tmp.101;
+        bf %tmp.102 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_29_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_29_true:
+        %tmp.104 = getv ? :mTemp;
+        %tmp.105 = 50;
+        %tmp.106 = lt %tmp.104 %tmp.105;
+        %tmp.107 = and %tmp.101 %tmp.106;
+        push %tmp.107;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_29_end:
+        %tmp.108 = phi [%tmp.102 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_13_begin] [%tmp.107 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_29_true] [%tmp.108 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_29_end];
+        bf %tmp.108 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_9_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_96_12_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 96 13 ]
+        %tmp.109 = getm $.Toybox.Graphics;
+        %tmp.110 = getv %tmp.109 :COLOR_DK_RED;
+        ret %tmp.110;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_96_12_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_9_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_95_9_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 97 9 ]
+        %tmp.111 = getm $.Toybox.Graphics;
+        %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+        ret %tmp.112;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_78_26_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 102; ]
+    function onHide() {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 106; ]
+    public
+    function onReceive(args as Dictionary) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_106_50_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 107 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_stmt:
+        %tmp.2 = lgetv %args;
+        %tmp.4 = getv ? :Dictionary;
+        %tmp.5 = isa %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 108 12 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_stop" ]
+        %mCurrent.1 = local;
+        %tmp.6 = lgetv %args;
+        %tmp.7 = as %tmp.6 { (Dictionary) };
+        %tmp.8 = getv function %tmp.7 :get;
+        %tmp.9 = "current";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        %tmp.11 = as %tmp.10 Dictionary;
+        lputv %mCurrent.1 %tmp.11;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 109 12 ]
+        %tmp.12 = self;
+        %tmp.13 = getv function %tmp.12 :getDisplayString;
+        %tmp.14 = lgetv %mCurrent.1;
+        %tmp.15 = getv function %tmp.14 :get;
+        %tmp.16 = "daytime";
+        %tmp.18 = getv ? :mlang;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        %tmp.20 = invoke %tmp.14 %tmp.15(%tmp.19);
+        %tmp.21 = invoke %tmp.12 %tmp.13(%tmp.20);
+        %tmp.22 = "";
+        %tmp.23 = add %tmp.21 %tmp.22;
+        putv self :mDate %tmp.23;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 110 12 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_stop" ]
+        %mTempstr.2 = local;
+        %tmp.24 = lgetv %mCurrent.1;
+        %tmp.25 = getv function %tmp.24 :get;
+        %tmp.26 = "temp";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = as %tmp.27 String;
+        lputv %mTempstr.2 %tmp.28;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 111 12 ]
+        %tmp.29 = lgetv %mTempstr.2;
+        %tmp.30 = getv function %tmp.29 :toFloat;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        putv self :mTemp %tmp.31;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 112 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_stmt:
+        %tmp.32 = lgetv %mCurrent.1;
+        %tmp.33 = getv function %tmp.32 :get;
+        %tmp.34 = "islight";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = getv function %tmp.35 :equals;
+        %tmp.37 = "1";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        bf %tmp.38 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_52_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 113 16 ]
+        %tmp.39 = self;
+        %tmp.40 = getv function %tmp.39 :getDisplayString;
+        %tmp.41 = lgetv %mCurrent.1;
+        %tmp.42 = getv function %tmp.41 :get;
+        %tmp.43 = "temp";
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        %tmp.45 = invoke %tmp.39 %tmp.40(%tmp.44);
+        %tmp.47 = getv ? :StringUtil;
+        %tmp.48 = getv function %tmp.47 :utf8ArrayToString;
+        %tmp.49 = newa 2;
+        %tmp.50 = 0xC2;
+        %tmp.51 = dup %tmp.49;
+        %tmp.52 = aputv %tmp.51 0 %tmp.50;
+        %tmp.53 = 0xB0;
+        %tmp.54 = dup %tmp.52;
+        %tmp.55 = aputv %tmp.54 1 %tmp.53;
+        %tmp.56 = invoke %tmp.47 %tmp.48(%tmp.55);
+        %tmp.57 = add %tmp.45 %tmp.56;
+        putv self :mTempTitle %tmp.57;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_52_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_false:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_115_16_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 116 16 ]
+        %tmp.58 = self;
+        %tmp.59 = getv function %tmp.58 :getDisplayString;
+        %tmp.60 = lgetv %mCurrent.1;
+        %tmp.61 = getv function %tmp.60 :get;
+        %tmp.62 = "temp";
+        %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
+        %tmp.64 = invoke %tmp.58 %tmp.59(%tmp.63);
+        %tmp.66 = getv ? :StringUtil;
+        %tmp.67 = getv function %tmp.66 :utf8ArrayToString;
+        %tmp.68 = newa 2;
+        %tmp.69 = 0xC2;
+        %tmp.70 = dup %tmp.68;
+        %tmp.71 = aputv %tmp.70 0 %tmp.69;
+        %tmp.72 = 0xB0;
+        %tmp.73 = dup %tmp.71;
+        %tmp.74 = aputv %tmp.73 1 %tmp.72;
+        %tmp.75 = invoke %tmp.66 %tmp.67(%tmp.74);
+        %tmp.76 = add %tmp.64 %tmp.75;
+        putv self :mTempTitle %tmp.76;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_115_16_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_112_12_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 118 12 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_stop" ]
+        %sigRunWalk.3 = local;
+        %tmp.78 = lgetv %args;
+        %tmp.79 = as %tmp.78 { (Dictionary) };
+        %tmp.80 = "sigRunWalkweather";
+        %tmp.81 = agetv %tmp.79 %tmp.80;
+        %tmp.82 = as %tmp.81 Dictionary;
+        lputv %sigRunWalk.3 %tmp.82;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 119 12 ]
+        %tmp.83 = self;
+        %tmp.84 = getv function %tmp.83 :getSigWeatherDisplayString;
+        %tmp.86 = lgetv %sigRunWalk.3;
+        %tmp.88 = getv ? :mlang;
+        %tmp.89 = invoke %tmp.83 %tmp.84(%tmp.86, %tmp.88);
+        putv self :mSigWeather %tmp.89;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 120 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_12_if_stmt:
+        %tmp.90 = lgetv %mCurrent.1;
+        %tmp.91 = getv function %tmp.90 :get;
+        %tmp.92 = "rainchance";
+        %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
+        %tmp.94 = getv function %tmp.93 :equals;
+        %tmp.95 = "0";
+        %tmp.96 = invoke %tmp.93 %tmp.94(%tmp.95);
+        %tmp.97 = not %tmp.96;
+        bf %tmp.97 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 121 16 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_stop" ]
+        %rainchance.4 = local;
+        %tmp.98 = newa 2;
+        %tmp.100 = const :rainchance0;
+        %tmp.101 = dup %tmp.98;
+        %tmp.102 = aputv %tmp.101 0 %tmp.100;
+        %tmp.104 = const :rainchance1;
+        %tmp.105 = dup %tmp.102;
+        %tmp.106 = aputv %tmp.105 1 %tmp.104;
+        lputv %rainchance.4 %tmp.106;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 125 16 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_stop" ]
+        %rainchance_str.5 = local;
+        %tmp.107 = self;
+        %tmp.108 = getv function %tmp.107 :loadResource;
+        %tmp.110 = getv ? :Rez;
+        %tmp.111 = getv %tmp.110 :Strings;
+        %tmp.113 = lgetv %rainchance.4;
+        %tmp.115 = getv ? :mlang;
+        %tmp.116 = agetv %tmp.113 %tmp.115;
+        %tmp.117 = agetv %tmp.111 %tmp.116;
+        %tmp.118 = invoke %tmp.107 %tmp.108(%tmp.117);
+        lputv %rainchance_str.5 %tmp.118;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 126 14 ]
+        %tmp.119 = lgetv %mCurrent.1;
+        %tmp.120 = getv function %tmp.119 :get;
+        %tmp.121 = "rainchance";
+        %tmp.122 = invoke %tmp.119 %tmp.120(%tmp.121);
+        %tmp.123 = "% ";
+        %tmp.124 = add %tmp.122 %tmp.123;
+        %tmp.126 = lgetv %rainchance_str.5;
+        %tmp.127 = add %tmp.124 %tmp.126;
+        putv self :mRain %tmp.127;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_56_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_120_12_if_end:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_40_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_false:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 130 13 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_stmt:
+        %tmp.129 = lgetv %args;
+        %tmp.130 = as %tmp.129 { (!Dictionary) };
+        %tmp.132 = getv ? :Array;
+        %tmp.133 = isa %tmp.130 %tmp.132;
+        bf %tmp.133 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_39_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 131 12 ]
+        %tmp.134 = "is Array";
+        putv self :mMessage %tmp.134;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_39_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_false:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 133 13 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_13_if_stmt:
+        %tmp.136 = lgetv %args;
+        %tmp.137 = as %tmp.136 { (!Array) && (!Dictionary) };
+        %tmp.138 = getm $.Toybox.Lang;
+        %tmp.139 = getv %tmp.138 :String;
+        %tmp.140 = isa %tmp.137 %tmp.139;
+        bf %tmp.140 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_13_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_13_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_46_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 134 13 ]
+        %tmp.142 = lgetv %args;
+        %tmp.143 = as %tmp.142 { (!Array) && (Lang.String) && (!Dictionary) };
+        putv self :mTempTitle %tmp.143;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_46_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_13_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_133_13_if_end:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_130_13_if_end:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_107_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 136 8 ]
+        %tmp.145 = getv ? :System;
+        %tmp.146 = getv function %tmp.145 :println;
+        %tmp.147 = "GlanceView onReceive:";
+        %tmp.149 = getv ? :mDate;
+        %tmp.150 = add %tmp.147 %tmp.149;
+        %tmp.151 = " ";
+        %tmp.152 = add %tmp.150 %tmp.151;
+        %tmp.154 = getv ? :mTempTitle;
+        %tmp.155 = add %tmp.152 %tmp.154;
+        %tmp.156 = " ";
+        %tmp.157 = add %tmp.155 %tmp.156;
+        %tmp.159 = getv ? :mWindHumTitle;
+        %tmp.160 = add %tmp.157 %tmp.159;
+        %tmp.161 = " ";
+        %tmp.162 = add %tmp.160 %tmp.161;
+        %tmp.164 = getv ? :mSigWeather;
+        %tmp.165 = add %tmp.162 %tmp.164;
+        invoke %tmp.145 %tmp.146(%tmp.165);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 137 8 ]
+        %tmp.166 = getm $.Toybox.WatchUi;
+        %tmp.167 = getv function %tmp.166 :requestUpdate;
+        invoke %tmp.166 %tmp.167();
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_106_50_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 140; ]
+    function getDisplayString(item) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_140_36_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 141 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_140_36_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_140_36_stop" ]
+        %displayString.1 = local;
+        %tmp.1 = "";
+        lputv %displayString.1 %tmp.1;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 142 8 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_stmt:
+        %tmp.3 = lgetv %item;
+        %tmp.4 = getm $.Toybox.Lang;
+        %tmp.5 = getv %tmp.4 :Array;
+        %tmp.6 = isa %tmp.3 %tmp.5;
+        bf %tmp.6 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_46_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 143 12 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :getArrayDisplayString;
+        %tmp.10 = lgetv %item;
+        %tmp.11 = as %tmp.10 { (Toybox.Lang.Array) };
+        %tmp.12 = invoke %tmp.7 %tmp.8(%tmp.11);
+        lputv %displayString.1 %tmp.12;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_46_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_false:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 144 15 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_stmt:
+        %tmp.14 = lgetv %item;
+        %tmp.15 = as %tmp.14 { (!Toybox.Lang.Array) };
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv %tmp.16 :Dictionary;
+        %tmp.18 = isa %tmp.15 %tmp.17;
+        bf %tmp.18 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_58_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 145 12 ]
+        %tmp.19 = self;
+        %tmp.20 = getv function %tmp.19 :getDictionaryDisplayString;
+        %tmp.22 = lgetv %item;
+        %tmp.23 = as %tmp.22 { (Toybox.Lang.Dictionary) && (!Toybox.Lang.Array) };
+        %tmp.24 = invoke %tmp.19 %tmp.20(%tmp.23);
+        lputv %displayString.1 %tmp.24;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_58_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_false:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_146_15_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 148 12 ]
+        %tmp.25 = lgetv %item;
+        %tmp.26 = as %tmp.25 { (!Toybox.Lang.Array) && (!Toybox.Lang.Dictionary) };
+        %tmp.27 = getv function %tmp.26 :toString;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        lputv %displayString.1 %tmp.28;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_146_15_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_144_15_if_end:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_142_8_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 151 8 ]
+        %tmp.30 = lgetv %displayString.1;
+        ret %tmp.30;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_140_36_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 155; ]
+    function changeBitmap() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_155_28_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 156 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_155_28_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_155_28_stop" ]
+        %bitmap.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "logoc";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Bitmap;
+        lputv %bitmap.1 %tmp.5;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 157 8 ]
+        %tmp.6 = lgetv %bitmap.1;
+        %tmp.7 = getv function %tmp.6 :setBitmap;
+        %tmp.9 = getv ? :Rez;
+        %tmp.10 = getv %tmp.9 :Drawables;
+        %tmp.11 = getv %tmp.10 :logoc_eng;
+        invoke %tmp.6 %tmp.7(%tmp.11);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_155_28_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 162; ]
+    function getSigWeatherDisplayString(array as Dictionary, lang) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_162_67_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 163 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_162_67_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_162_67_stop" ]
+        %displayString.1 = local;
+        %tmp.1 = "";
+        lputv %displayString.1 %tmp.1;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 164 8 ]
+        for @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_test @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_incr @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_init:
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_begin" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_end" ]
+        %index.2 = local;
+        %tmp.2 = 1;
+        lputv %index.2 %tmp.2;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_test:
+        %tmp.4 = lgetv %index.2;
+        %tmp.5 = lgetv %array;
+        %tmp.6 = getv function %tmp.5 :size;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = lt %tmp.4 %tmp.7;
+        bf %tmp.8 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_begin:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_58_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 165 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_stmt:
+        %tmp.10 = lgetv %index.2;
+        %tmp.11 = 1;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_false;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_27_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 166 16 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_27_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_27_stop" ]
+        %con.3 = local;
+        %tmp.14 = lgetv %array;
+        %tmp.16 = lgetv %index.2;
+        %tmp.17 = agetv %tmp.14 %tmp.16;
+        %tmp.18 = as %tmp.17 Dictionary;
+        lputv %con.3 %tmp.18;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 167 16 ]
+        %tmp.20 = lgetv %con.3;
+        %tmp.21 = "sigtitle";
+        %tmp.23 = lgetv %lang;
+        %tmp.24 = add %tmp.21 %tmp.23;
+        %tmp.25 = agetv %tmp.20 %tmp.24;
+        putv self :mWindHumTitle %tmp.25;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_27_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_false:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_169_17_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 171 14 ]
+        %tmp.26 = lgetv %displayString.1;
+        %tmp.27 = self;
+        %tmp.28 = getv function %tmp.27 :getSigWeatherDictionaryDisplayString;
+        %tmp.30 = lgetv %array;
+        %tmp.32 = lgetv %index.2;
+        %tmp.33 = agetv %tmp.30 %tmp.32;
+        %tmp.35 = lgetv %lang;
+        %tmp.36 = invoke %tmp.27 %tmp.28(%tmp.33, %tmp.35);
+        %tmp.37 = add %tmp.26 %tmp.36;
+        lputv %displayString.1 %tmp.37;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_169_17_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_165_12_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 173 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_12_if_stmt:
+        %tmp.39 = lgetv %index.2;
+        %tmp.40 = lgetv %array;
+        %tmp.41 = getv function %tmp.40 :size;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        %tmp.43 = 1;
+        %tmp.44 = sub %tmp.42 %tmp.43;
+        %tmp.45 = lt %tmp.39 %tmp.44;
+        bf %tmp.45 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_41_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 174 16 ]
+        %tmp.46 = lgetv %displayString.1;
+        %tmp.47 = "";
+        %tmp.48 = add %tmp.46 %tmp.47;
+        lputv %displayString.1 %tmp.48;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_41_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_173_12_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 176 11 ]
+        %tmp.49 = lgetv %displayString.1;
+        %tmp.50 = "";
+        %tmp.51 = add %tmp.49 %tmp.50;
+        lputv %displayString.1 %tmp.51;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_58_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_incr:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 164 ]
+        %tmp.54 = lgetv %index.2;
+        %tmp.55 = add %tmp.54 1;
+        lputv %index.2 %tmp.55;
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_test;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_164_8_for_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 178 8 ]
+        %tmp.57 = lgetv %displayString.1;
+        ret %tmp.57;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_162_67_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 182; ]
+    function getArrayDisplayString(array as Array) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_182_51_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 183 9 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_182_51_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_182_51_stop" ]
+        %displayString.1 = local;
+        %tmp.1 = "";
+        lputv %displayString.1 %tmp.1;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 184 8 ]
+        %tmp.2 = lgetv %displayString.1;
+        %tmp.3 = "[\n";
+        %tmp.4 = add %tmp.2 %tmp.3;
+        lputv %displayString.1 %tmp.4;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 185 8 ]
+        for @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_test @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_incr @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_init:
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_begin" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_end" ]
+        %index.2 = local;
+        %tmp.5 = 0;
+        lputv %index.2 %tmp.5;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_test:
+        %tmp.7 = lgetv %index.2;
+        %tmp.8 = lgetv %array;
+        %tmp.9 = getv function %tmp.8 :size;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = lt %tmp.7 %tmp.10;
+        bf %tmp.11 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_begin:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_58_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 187 12 ]
+        %tmp.12 = lgetv %displayString.1;
+        %tmp.14 = lgetv %array;
+        %tmp.16 = lgetv %index.2;
+        %tmp.17 = agetv %tmp.14 %tmp.16;
+        %tmp.18 = getv function %tmp.17 :toString;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.12 %tmp.19;
+        lputv %displayString.1 %tmp.20;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 189 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_12_if_stmt:
+        %tmp.22 = lgetv %index.2;
+        %tmp.23 = lgetv %array;
+        %tmp.24 = getv function %tmp.23 :size;
+        %tmp.25 = invoke %tmp.23 %tmp.24();
+        %tmp.26 = 1;
+        %tmp.27 = sub %tmp.25 %tmp.26;
+        %tmp.28 = lt %tmp.22 %tmp.27;
+        bf %tmp.28 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_41_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 190 16 ]
+        %tmp.29 = lgetv %displayString.1;
+        %tmp.30 = ",";
+        %tmp.31 = add %tmp.29 %tmp.30;
+        lputv %displayString.1 %tmp.31;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_41_stop:
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_189_12_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 193 12 ]
+        %tmp.32 = lgetv %displayString.1;
+        %tmp.33 = "\n";
+        %tmp.34 = add %tmp.32 %tmp.33;
+        lputv %displayString.1 %tmp.34;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_58_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_incr:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 185 ]
+        %tmp.37 = lgetv %index.2;
+        %tmp.38 = add %tmp.37 1;
+        lputv %index.2 %tmp.38;
+        goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_test;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_185_8_for_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 195 8 ]
+        %tmp.39 = lgetv %displayString.1;
+        %tmp.40 = "]\n";
+        %tmp.41 = add %tmp.39 %tmp.40;
+        lputv %displayString.1 %tmp.41;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 197 8 ]
+        %tmp.43 = lgetv %displayString.1;
+        ret %tmp.43;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_182_51_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 201; ]
+    function getSigWeatherDictionaryDisplayString(dictionary as Dictionary, lang) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_201_82_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 202 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_201_82_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_201_82_stop" ]
+        %displayString.1 = local;
+        %tmp.1 = "";
+        lputv %displayString.1 %tmp.1;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 203 8 ]
+        %tmp.2 = lgetv %displayString.1;
+        %tmp.4 = lgetv %dictionary;
+        %tmp.5 = "sigtitle";
+        %tmp.7 = lgetv %lang;
+        %tmp.8 = add %tmp.5 %tmp.7;
+        %tmp.9 = agetv %tmp.4 %tmp.8;
+        %tmp.10 = " \n";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        %tmp.13 = lgetv %dictionary;
+        %tmp.14 = "sigext";
+        %tmp.16 = lgetv %lang;
+        %tmp.17 = add %tmp.14 %tmp.16;
+        %tmp.18 = agetv %tmp.13 %tmp.17;
+        %tmp.19 = add %tmp.11 %tmp.18;
+        %tmp.20 = add %tmp.2 %tmp.19;
+        lputv %displayString.1 %tmp.20;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 205 8 ]
+        %tmp.22 = lgetv %displayString.1;
+        ret %tmp.22;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_201_82_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 209; ]
+    function getDictionaryDisplayString(dictionary as Dictionary) {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_209_66_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 210 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_209_66_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_209_66_stop" ]
+        %displayString.1 = local;
+        %tmp.1 = "\n";
+        lputv %displayString.1 %tmp.1;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 211 8 ]
+        %tmp.2 = lgetv %displayString.1;
+        %tmp.3 = "{";
+            %tmp.4 = add %tmp.2 %tmp.3;
+            lputv %displayString.1 %tmp.4;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 212 8 ]
+            for @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_test @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_incr @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_init:
+            [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_begin" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_end" ]
+            %index.2 = local;
+            %tmp.5 = 0;
+            lputv %index.2 %tmp.5;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_test:
+            %tmp.7 = lgetv %index.2;
+            %tmp.8 = lgetv %dictionary;
+            %tmp.9 = getv function %tmp.8 :keys;
+            %tmp.10 = invoke %tmp.8 %tmp.9();
+            %tmp.11 = getv function %tmp.10 :size;
+            %tmp.12 = invoke %tmp.10 %tmp.11();
+            %tmp.13 = lt %tmp.7 %tmp.12;
+            bf %tmp.13 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_begin:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 213 12 ]
+            [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_stop" ]
+            %key.3 = local;
+            %tmp.14 = lgetv %dictionary;
+            %tmp.15 = getv function %tmp.14 :keys;
+            %tmp.16 = invoke %tmp.14 %tmp.15();
+            %tmp.18 = lgetv %index.2;
+            %tmp.19 = agetv %tmp.16 %tmp.18;
+            lputv %key.3 %tmp.19;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 214 12 ]
+            [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_stop" ]
+            %value.4 = local;
+            %tmp.21 = lgetv %dictionary;
+            %tmp.23 = lgetv %key.3;
+            %tmp.24 = agetv %tmp.21 %tmp.23;
+            lputv %value.4 %tmp.24;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 216 12 ]
+            %tmp.25 = lgetv %displayString.1;
+            %tmp.27 = lgetv %key.3;
+            %tmp.28 = "=>";
+            %tmp.29 = add %tmp.27 %tmp.28;
+            %tmp.30 = lgetv %value.4;
+            %tmp.31 = getv function %tmp.30 :toString;
+            %tmp.32 = invoke %tmp.30 %tmp.31();
+            %tmp.33 = add %tmp.29 %tmp.32;
+            %tmp.34 = add %tmp.25 %tmp.33;
+            lputv %displayString.1 %tmp.34;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 218 12 ]
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_12_if_stmt:
+            %tmp.36 = lgetv %index.2;
+            %tmp.37 = lgetv %dictionary;
+            %tmp.38 = getv function %tmp.37 :keys;
+            %tmp.39 = invoke %tmp.37 %tmp.38();
+            %tmp.40 = getv function %tmp.39 :size;
+            %tmp.41 = invoke %tmp.39 %tmp.40();
+            %tmp.42 = 1;
+            %tmp.43 = sub %tmp.41 %tmp.42;
+            %tmp.44 = lt %tmp.36 %tmp.43;
+            bf %tmp.44 @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_12_if_true:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_53_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 219 16 ]
+            %tmp.45 = lgetv %displayString.1;
+            %tmp.46 = ",";
+            %tmp.47 = add %tmp.45 %tmp.46;
+            lputv %displayString.1 %tmp.47;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_53_stop:
+            goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_12_if_end;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_218_12_if_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 222 12 ]
+            %tmp.48 = lgetv %displayString.1;
+            %tmp.49 = "\n";
+            %tmp.50 = add %tmp.48 %tmp.49;
+            lputv %displayString.1 %tmp.50;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_70_stop:
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_incr:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 212 ]
+            %tmp.53 = lgetv %index.2;
+            %tmp.54 = add %tmp.53 1;
+            lputv %index.2 %tmp.54;
+            goto @C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_test;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_212_8_for_end:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 224 8 ]
+            %tmp.55 = lgetv %displayString.1;
+        %tmp.56 = "}";
+        %tmp.57 = add %tmp.55 %tmp.56;
+        lputv %displayString.1 %tmp.57;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc" 226 8 ]
+        %tmp.59 = lgetv %displayString.1;
+        ret %tmp.59;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsGlanceView_mc_209_66_stop:
+    }
+}
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsGlanceView.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string id="AppName">02ws</string>
+    <string id="Mountain0">Mountain</string>
+    <string id="Mountain1">הר</string>
+    <string id="Valley0">Valley</string>
+    <string id="Valley1">עמק</string>
+    <string id="rain">rain</string>
+    <string id="rainchance0" scope="glance">rain chance</string>
+    <string id="rainchance1" scope="glance">סיכוי לגשם</string>
+    <string id="morning0">morning</string>
+    <string id="morning1">בוקר</string>
+    <string id="noon0">noon</string>
+    <string id="noon1">צהריים</string>
+    <string id="night0">night</string>
+    <string id="night1">לילה</string>
+    <string id="language_label">Language:</string>
+    <string id="language">Language</string>
+    <string id="English">English</string>
+    <string id="Hebrew">Hebrew</string>
+    <string id="CorF">C or F</string>
+    <string id="C">C</string>
+    <string id="F">F</string>
+    <string id="AppVersionTitle">Version</string>
+    
+</resources>

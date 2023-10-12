@@ -1,0 +1,130 @@
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 5; ]
+class JwsApp extends Application.AppBase{
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 6; @position = 15; ]
+    protected
+    var mView;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 7; @position = 15; ]
+    protected
+    var gView;
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_8_26_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 9 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_8_26_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 13; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 17; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 21; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_21_65_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 22 9 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_21_65_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_21_65_stop" ]
+        %lang.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :getProperty;
+        %tmp.5 = "lang";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        lputv %lang.1 %tmp.6;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 23 8 ]
+        %tmp.8 = getv ? :System;
+        %tmp.9 = getv function %tmp.8 :println;
+        %tmp.10 = "lang=";
+        %tmp.12 = lgetv %lang.1;
+        %tmp.13 = add %tmp.10 %tmp.12;
+        invoke %tmp.8 %tmp.9(%tmp.13);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 24 8 ]
+        %tmp.17 = getv ? :JwsView;
+        %tmp.19 = lgetv %lang.1;
+        %tmp.14 = newc %tmp.17 (%tmp.19);
+        putv self :mView %tmp.14;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 25 8 ]
+        %tmp.20 = newa Array<Views or InputDelegates> 2;
+        %tmp.22 = getv ? :mView;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 0 %tmp.22;
+        %tmp.28 = getv ? :JwsDelegate;
+        %tmp.30 = getv ? :mView;
+        %tmp.31 = getv function %tmp.30 :method;
+        %tmp.33 = const :onReceive;
+        %tmp.34 = invoke %tmp.30 %tmp.31(%tmp.33);
+        %tmp.25 = newc %tmp.28 (%tmp.34);
+        %tmp.35 = dup %tmp.24;
+        %tmp.36 = aputv %tmp.35 1 %tmp.25;
+        ret %tmp.36;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_21_65_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 28; glance = true; ]
+    function getGlanceView() {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 30 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_stop" ]
+        %lang.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :getProperty;
+        %tmp.5 = "lang";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        lputv %lang.1 %tmp.6;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 31 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_stop" ]
+        %view.2 = local;
+        %tmp.10 = getv ? :JwsGlanceView;
+        %tmp.12 = lgetv %lang.1;
+        %tmp.7 = newc %tmp.10 (%tmp.12);
+        lputv %view.2 %tmp.7;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 32 8 ]
+        [ "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_start" "C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_stop" ]
+        %delegate.3 = local;
+        %tmp.16 = getv ? :JwsDelegate;
+        %tmp.17 = lgetv %view.2;
+        %tmp.18 = getv function %tmp.17 :method;
+        %tmp.20 = const :onReceive;
+        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
+        %tmp.13 = newc %tmp.16 (%tmp.21);
+        lputv %delegate.3 %tmp.13;
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 33 8 ]
+        %tmp.22 = newa 1;
+        %tmp.24 = lgetv %view.2;
+        %tmp.25 = dup %tmp.22;
+        %tmp.26 = aputv %tmp.25 0 %tmp.24;
+        ret %tmp.26;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_29_29_stop:
+    }
+}
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 38; ]
+function getApp() as JwsApp {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_38_28_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc" 39 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 JwsApp;
+    ret %tmp.4;
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_JwsApp_mc_38_28_stop:
+}
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\JwsApp.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,68 @@
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 4; ]
+class Jws2View extends WatchUi.View{
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 6; ]
+    function initialize() as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_6_26_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc" 7 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_6_26_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 11; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_11_40_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc" 12 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_11_40_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 18; ]
+    function onShow() as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_18_30_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc" 19 9 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "Jws2View onShow:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_18_30_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 23; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_23_40_start:
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc" 25 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "Jws2View onUpdate:";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc" 26 8 ]
+        %tmp.6 = getv ? :View;
+        %tmp.7 = getv function %tmp.6 :onUpdate;
+        %tmp.9 = lgetv %dc;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+C_Users_BoazNechemia_02ws_02wsgarmin_Jws2_source_Jws2View_mc_23_40_stop:
+    }
+    [ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 32; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\BoazNechemia\02ws\02wsgarmin\Jws2\source\Jws2View.mc"; @line = 1; ]
+<init> {
+}

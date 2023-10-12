@@ -7,7 +7,7 @@
         <bitmap id="LauncherIcon" filename="../resources/images/logo5_glance.png" />
     </drawables>
     <properties>
-    <property id="appVersion" type="string">2.0.1</property>
+    <property id="appVersion" type="string">3.1.5</property>
     <property id="lang" type="number">1</property>
     <property id="CorF" type="string">C</property>
     </properties>

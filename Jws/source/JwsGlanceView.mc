@@ -82,7 +82,7 @@ class JwsGlanceView extends WatchUi.GlanceView {
                 
             mSigWeather = getSigWeatherDisplayString(args.get("sigRunWalkweather"), mlang);
             if (!args.get("current").get("rainchance").equals("0")){
-              mRain = args.get("current").get("rainchance") + "% " + loadResource(Rez.Strings.rain);
+              mRain = args.get("current").get("rainchance") + "% " + loadResource(Rez.Strings.rainchance);
             }
             
         }
